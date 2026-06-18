@@ -1,0 +1,355 @@
+/*--------------------------------------------------------------
+# About Hero
+--------------------------------------------------------------*/
+.about-hero {
+  min-height: 420px;
+  position: relative;
+  background: url('../img/hero.webp') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 140px 0 80px 0;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(164,64,53,0.82), rgba(26,14,12,0.9));
+}
+
+.about-hero h1 {
+  font-size: 46px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.about-hero h1 span { color: #d2ae6d; }
+
+.about-hero p {
+  font-size: 17px;
+  color: rgba(255,255,255,0.85);
+}
+
+.about-badge {
+  display: inline-block;
+  background: #a44035;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 2px;
+  margin-bottom: 18px;
+}
+
+.about-badge-sm {
+  display: inline-block;
+  background: #d2ae6d;
+  color: #1a0e0c;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+
+/*--------------------------------------------------------------
+# Our Story
+--------------------------------------------------------------*/
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #a44035;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+h2 span { color: #d2ae6d; }
+
+.overview-stat {
+  background: #fff8f0;
+  border-left: 4px solid #d2ae6d;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.overview-stat h3 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #a44035;
+  margin: 0;
+}
+
+.overview-stat p {
+  font-size: 13px;
+  color: #6b4c47;
+  margin: 0;
+  font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Mission & Vision
+--------------------------------------------------------------*/
+.mv-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 35px 30px;
+  height: 100%;
+  border-top: 3px solid #a44035;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+  transition: all 0.3s ease;
+}
+
+.mv-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(164,64,53,0.12);
+}
+
+.mv-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #a44035, #d2ae6d);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mv-icon i {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.mv-card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #a44035;
+  margin-bottom: 12px;
+}
+
+.mv-card p {
+  font-size: 14px;
+  color: #6b4c47;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Core Values
+--------------------------------------------------------------*/
+.value-card {
+  background: #fff8f0;
+  border-radius: 8px;
+  padding: 30px 25px;
+  text-align: center;
+  height: 100%;
+  border-bottom: 3px solid #d2ae6d;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(164,64,53,0.12);
+  border-bottom-color: #a44035;
+}
+
+.value-icon {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(135deg, #a44035, #d2ae6d);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px auto;
+}
+
+.value-icon i {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.value-card h5 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #a44035;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-size: 13px;
+  color: #6b4c47;
+  margin: 0;
+  line-height: 1.7;
+}
+
+/*--------------------------------------------------------------
+# Manufacturing Facility
+--------------------------------------------------------------*/
+.facility-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.facility-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #d2ae6d;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.facility-item:hover {
+  border-left-color: #a44035;
+  box-shadow: 0 5px 20px rgba(164,64,53,0.1);
+}
+
+.facility-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #a44035, #d2ae6d);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.facility-icon i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.facility-item h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #a44035;
+  margin-bottom: 5px;
+}
+
+.facility-item p {
+  font-size: 13px;
+  color: #6b4c47;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.facility-address {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 35px;
+  border: 1px solid rgba(164,64,53,0.15);
+  box-shadow: 0 3px 20px rgba(0,0,0,0.06);
+  height: 100%;
+}
+
+.facility-address i.bi-building {
+  font-size: 40px;
+  color: #a44035;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.facility-address h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #a44035;
+  margin-bottom: 12px;
+}
+
+.facility-address p {
+  font-size: 14px;
+  color: #6b4c47;
+  line-height: 1.9;
+}
+
+.facility-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #3a2a28;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.facility-contact i {
+  color: #a44035;
+  font-size: 16px;
+}
+
+.facility-contact:hover { color: #a44035; }
+
+/*--------------------------------------------------------------
+# Certifications
+--------------------------------------------------------------*/
+.cert-card {
+  background: #fff8f0;
+  border-radius: 8px;
+  padding: 30px 25px;
+  text-align: center;
+  height: 100%;
+  border-bottom: 3px solid #d2ae6d;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(164,64,53,0.12);
+  border-bottom-color: #a44035;
+}
+
+.cert-icon {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(135deg, #a44035, #d2ae6d);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px auto;
+}
+
+.cert-icon i {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.cert-card h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #a44035;
+  margin-bottom: 10px;
+}
+
+.cert-card p {
+  font-size: 13px;
+  color: #6b4c47;
+  margin: 0;
+  line-height: 1.7;
+}
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .about-hero h1 { font-size: 28px; }
+  .facility-address { margin-top: 20px; }
+}
+
+

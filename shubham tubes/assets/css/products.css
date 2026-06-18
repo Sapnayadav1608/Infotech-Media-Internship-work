@@ -1,0 +1,168 @@
+/*--------------------------------------------------------------
+# Products Page Hero
+--------------------------------------------------------------*/
+.page-hero {
+  min-height: 420px;
+  position: relative;
+  background: url('../img/hero.webp') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 140px 0 80px 0;
+}
+
+.page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(164,64,53,0.82), rgba(26,14,12,0.9));
+}
+
+.page-hero h1 {
+  font-size: 46px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.page-hero h1 span { color: #d2ae6d; }
+
+.page-hero p {
+  font-size: 17px;
+  color: rgba(255,255,255,0.85);
+}
+
+.page-badge {
+  display: inline-block;
+  background: #a44035;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 2px;
+  margin-bottom: 18px;
+}
+
+/*--------------------------------------------------------------
+# Product Category Cards
+--------------------------------------------------------------*/
+.product-cat-card {
+  display: block;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  border-bottom: 3px solid #d2ae6d;
+  height: 100%;
+}
+
+.product-cat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(164,64,53,0.15);
+  border-bottom-color: #a44035;
+}
+
+.product-cat-img {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-cat-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.product-cat-card:hover .product-cat-img img {
+  transform: scale(1.08);
+}
+
+.product-cat-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(26,14,12,0.85) 0%, rgba(164,64,53,0.55) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-cat-card:hover .product-cat-overlay {
+  opacity: 1;
+}
+
+.product-cat-overlay i {
+  font-size: 44px;
+  color: #d2ae6d;
+}
+
+.product-cat-overlay span {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.product-cat-body {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.product-cat-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #a44035, #d2ae6d);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+
+.product-cat-card:hover .product-cat-icon {
+  background: linear-gradient(135deg, #d2ae6d, #a44035);
+}
+
+.product-cat-icon i {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.product-cat-body h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #a44035;
+  margin: 0 0 4px 0;
+  transition: 0.3s;
+}
+
+.product-cat-card:hover .product-cat-body h4 {
+  color: #d2ae6d;
+}
+
+.product-cat-body p {
+  font-size: 12px;
+  color: #6b4c47;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .page-hero h1 { font-size: 28px; }
+}
+

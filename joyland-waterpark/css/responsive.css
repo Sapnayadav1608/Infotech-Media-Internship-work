@@ -1,0 +1,147 @@
+/* ===== GLOBAL RESPONSIVE CSS ===== */
+/* Used across all pages */
+
+/* ===== LARGE DESKTOP (1200px+) ===== */
+@media (max-width: 1200px) {
+    .container { max-width: 960px; }
+    .hero-content h1 { font-size: 48px; }
+    .section-header h2 { font-size: 32px; }
+}
+
+/* ===== TABLET LANDSCAPE (992px) ===== */
+@media (max-width: 992px) {
+    /* Grids */
+    .features-grid { grid-template-columns: repeat(2, 1fr); }
+    .packages-grid { grid-template-columns: repeat(2, 1fr); }
+    .about-grid { grid-template-columns: 1fr; }
+    .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-item.large { grid-row: span 1; }
+
+    /* About collage */
+    .about-collage { height: 380px; }
+    .img1 { height: 260px; }
+    .img2 { height: 200px; }
+    .img3 { height: 180px; }
+
+    /* Hero */
+    .hero-content h1 { font-size: 42px; }
+    .hero-stats { gap: 30px; }
+
+    /* Section padding */
+    .features, .about-snippet, .packages-preview,
+    .gallery-preview, .testimonials, .contact-cta, .faq { padding: 70px 0; }
+
+    /* CTA */
+    .contact-cta h2 { font-size: 32px; }
+}
+
+/* ===== TABLET PORTRAIT (768px) ===== */
+@media (max-width: 768px) {
+    /* Topbar */
+    .topbar { display: none; }
+
+    /* Navbar */
+    .hamburger { display: flex; }
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 104px;
+        left: 0;
+        width: 100%;
+        background: #0a3d6b;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .navbar.open { display: block; }
+    .navbar ul { flex-direction: column; gap: 16px; }
+    .btn-book { display: inline-block; font-size: 12px; padding: 8px 16px; }
+
+    /* Logo */
+    .logo img { height: 60px; width: 140px; }
+
+    /* Hero */
+    .hero-content h1 { font-size: 30px; }
+    .hero-content > p { font-size: 14px; }
+    .hero-stats { gap: 20px; }
+    .hero-stats .stat h3 { font-size: 26px; }
+    .carousel-btn { width: 36px; height: 36px; font-size: 13px; }
+
+    /* Grids */
+    .features-grid { grid-template-columns: 1fr; }
+    .packages-grid { grid-template-columns: 1fr; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr; }
+
+    /* Section headers */
+    .section-header h2 { font-size: 24px; }
+    .section-header p { font-size: 14px; }
+
+    /* About */
+    .about-collage { height: 320px; }
+    .about-badge { top: auto; left: 50%; bottom: -30px; transform: translateX(-50%); padding: 14px 24px; text-align: center; white-space: nowrap; }
+    .about-badge h3 { font-size: 26px; }
+    .about-text h2 { font-size: 24px; }
+    .about-img { margin-bottom: 50px; }
+
+    /* Packages */
+    .package-card { padding: 28px 20px; }
+
+    /* CTA */
+    .contact-cta h2 { font-size: 24px; }
+    .contact-cta p { font-size: 14px; }
+    .cta-btns { flex-direction: column; align-items: center; }
+
+    /* Footer */
+    .footer-col:first-child { text-align: center; align-items: center; }
+    .footer-logo { height: 80px; }
+
+    /* Buttons */
+    .btn-primary, .btn-secondary, .btn-outline { padding: 12px 24px; font-size: 14px; }
+
+    /* Section padding */
+    .features, .about-snippet, .packages-preview,
+    .gallery-preview, .testimonials, .contact-cta, .faq { padding: 50px 0; }
+
+    /* FAQ */
+    .faq-question { font-size: 14px; padding: 16px 18px; }
+}
+
+/* ===== MOBILE (480px) ===== */
+@media (max-width: 480px) {
+    .container { padding: 0 16px; }
+
+    /* Hero */
+    .hero-content h1 { font-size: 26px; }
+    .hero-badge { font-size: 11px; padding: 5px 14px; }
+    .hero-stats { gap: 16px; }
+    .hero-stats .stat h3 { font-size: 22px; }
+    .hero-stats .stat p { font-size: 12px; }
+
+    /* Section headers */
+    .section-header h2 { font-size: 22px; }
+
+    /* About collage */
+    .about-collage { height: 260px; }
+    .img1 { height: 180px; }
+    .img2 { height: 150px; }
+    .img3 { height: 130px; }
+    .about-badge { padding: 12px 20px; }
+    .about-badge h3 { font-size: 22px; }
+    .about-badge p { font-size: 11px; }
+
+    /* Footer */
+    .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+    .footer-logo { height: 70px; }
+
+    /* Buttons */
+    .btn-primary, .btn-secondary { padding: 10px 20px; font-size: 13px; }
+
+    /* Testimonials */
+    .testimonial-card { padding: 24px 18px; }
+
+    /* CTA */
+    .contact-cta h2 { font-size: 20px; }
+}

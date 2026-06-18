@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- SITE TITLE -->
+	<title>Steel Emporium</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/img/logo (1).png" type="image/x-icon">
+	<!-- Latest Bootstrap min CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="assets/fonts/all.min.css">
+	<!--plugin Css-->
+	<link rel="stylesheet" href="assets/css/plugin.min.css">
+	<!--odometer.min Css-->
+	<link rel="stylesheet" href="assets/css/theme-spacing.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/grade-pages.css">
+
+	<style>
+		.atf_single_thumb img {
+			width: 100%;
+			height: 200px;
+		}
+
+		.atf-nav .sub-menu .sub-menu {
+			max-height: 300px;
+			overflow-y: auto;
+			scrollbar-width: thin;
+			scrollbar-color: #028bc5 #f0f0f0;
+		}
+
+		.atf-nav .sub-menu .sub-menu::-webkit-scrollbar {
+			width: 5px;
+		}
+
+		.atf-nav .sub-menu .sub-menu::-webkit-scrollbar-thumb {
+			background: #028bc5;
+			border-radius: 5px;
+		}
+
+		.atf-nav .sub-menu .sub-menu::-webkit-scrollbar-track {
+			background: #f0f0f0;
+		}
+	</style>
+
+<body>
+
+	<!-- Page Wrapper -->
+	<div class="page-wrapper">
+
+		<!-- CURSOR BODY START -->
+		<div class="cursor_body">
+			<div class="cursor-in"></div>
+			<div class="cursor-out"></div>
+		</div>
+		<!-- CURSOR BODY END -->
+
+		<!-- START PRELOADER -->
+		<div class="atf_preloader">
+			<div class="spinner_wrap">
+				<div class="spinner"></div>
+			</div>
+		</div>
+		<!-- END PRELOADER -->
+
+
+		<!-- Back to Top Start -->
+		<a href="https://wa.me/919820454631" target="_blank" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>
+		<div class="back-to-top">
+			<i class="fa-light fa-long-arrow-alt-up"></i>
+
+		</div>
+		<!-- Back to Top End -->
+
+		<!-- Start Search Area -->
+		<div class="atf-searching-area">
+			<form class="atf-searching-form">
+				<input type="text" name="#0" placeholder="Search ...">
+				<button type="submit"><i class="fa-light fa-magnifying-glass"></i></button>
+			</form>
+			<button type="button" class="atf-searching-close-btn"><i class="fa-light fa-xmark"></i></button>
+		</div>
+		<!-- Start Search Area -->
+
+
+		<!-- Start Hamburger area  -->
+		<div class="atf-hamburger">
+			<div class="atf-hamburger-wrapper">
+				<div class="atf-hamburger-header d-flex justify-content-between align-items-center mb-50">
+					<div class="atf-hamburger-logo">
+						<a href="index.html"><img src="assets/img/logo (1).png" alt=""></a>
+					</div>
+					<div class="atf-hamburger-close">
+						<button class="atf-hamburger-close-toggle"><i class="fa-light fa-times"></i></button>
+					</div>
+				</div>
+
+				<div class="atf-hamburger-menu d-block d-xl-none mb-50">
+					<nav></nav>
+				</div>
+
+
+				<div class="atf-hamburger-info mb-50">
+					<h3 class="atf-hamburger-sm-title">Your Address</h3>
+					<span><a href="tel:9820454631"><i class="fa-light fa-phone me-2"></i> 9820454631</a></span>
+					<span><a href="mailto:info@example.com"><i class="fa-light fa-envelope me-2"></i>
+							sales@steelemporium.co.in</a></span>
+					<span><a href="#"><i class="fa-light fa-map-marker-alt me-2"></i> 4th Kumbharwada,
+							Mumbai-400004</a></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="atf-hamburger-overlay"></div>
+		<!-- End Hamburger area  -->
+
+		<!-- START HEADER SECTION-->
+		<header class="atf-header-area">
+			<div class="atf-top-header d-none d-md-block black-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8 col-lg-9 col-md-9">
+							<div class="atf-top-header-in justify-content-start">
+								<ul class="atf-top-header-list">
+									<li><i class="fa-light fa-phone-volume"></i><a href="tel:+91 9820454631">9820454631
+										</a></li>
+									<li><i class="fa-light fa-clock"></i><a href="#">Mon - Sat: 9:00 AM - 8:00 PM</a>
+									</li>
+									<li><i class="fa-light fa-envelope"></i><a
+											href="mailto:sales@steelemporium.co.in">sales@steelemporium.co.in</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="atf-site-header atf-style1 atf-style2 atf-sticky-header">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6 ">
+							<div class="atf-site-logo atf-site-branding"><a href="index.html"><img class="logo-black"
+										src="assets/img/logo (1).png" alt="Logo"></a></div>
+						</div>
+						<div class="col-xl-8 d-none d-xl-block">
+							<div class="atf-main-menu landing-page d-flex justify-content-center text-center">
+								<nav class="atf-nav atf-mobile-menu-active">
+									<ul class="atf-nav-list">
+										<li><a href="index.html">Home</a></li>
+										<li class="menu-item-children active"><a href="products.html">Products</a>
+											<ul class="sub-menu">
+												<li class="menu-item-children"><a
+														href="stainless-steel-pipes.html">Stainless Pipes</a>
+													<ul class="sub-menu">
+														<li><a href="stainless-steel-304-pipes.html">SS 304 / SS 304L / SS
+																304H</a></li>
+														<li><a href="stainless-steel-309-pipes.html">SS 309</a></li>
+														<li><a href="stainless-steel-310-pipes.html">SS 310 / 310S</a></li>
+														<li><a href="stainless-steel-316-pipes.html">SS 316 /316L /316TI /316H</a>
+														</li>
+														<li><a href="stainless-steel-317l-pipes.html">SS 317L</a></li>
+														<li><a href="stainless-steel-321-pipes.html">SS 321</a></li>
+														<li><a href="stainless-steel-202-pipes.html">SS 202</a></li>
+														<li><a href="stainless-steel-904l-pipes.html">SS 904L</a></li>
+														<li><a href="stainless-steel-347-pipes.html">SS 347</a></li>
+													</ul>
+												</li>
+
+												<li class="menu-item-children"><a href="duplex-pipes.html">Duplex</a>
+													<ul class="sub-menu">
+														<li><a href="duplex-2205-pipes.html">Duplex 2205</a></li>
+														<li><a href="duplex-2304-pipes.html">Duplex 2304</a></li>
+														<li><a href="duplex-31803-pipes.html">Duplex S31803</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-children"><a href="super-duplex-pipes.html">Super
+														Duplex</a>
+													<ul class="sub-menu">
+														<li><a href="super-duplex-2507-pipes.html">Super Duplex 2507</a></li>
+														<li><a href="super-duplex-zeron-100-pipes.html">Super Duplex Zeron
+																100</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-children"><a href="nickel-pipes.html">Nickel
+														Pipes</a>
+													<ul class="sub-menu">
+														<li><a href="nickel-200-pipes.html">Nickel 200</a></li>
+														<li><a href="nickel-201-pipes.html">Nickel 201</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-children"><a href="inconel-pipes.html">Inconel
+														Pipes</a>
+													<ul class="sub-menu">
+														<li><a href="inconel-600-pipes.html">Inconel 600</a></li>
+														<li><a href="inconel-601-pipes.html">Inconel 601</a></li>
+														<li><a href="inconel-625-pipes.html">Inconel 625</a></li>
+														<li><a href="inconel-718-pipes.html">Inconel 718</a></li>
+														<li><a href="inconel-800-pipes.html">Inconel 800 / 800HT</a></li>
+														<li><a href="inconel-825-pipes.html">Inconel 825</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-children"><a href="monel-pipes.html">Monel
+														Pipes</a>
+													<ul class="sub-menu">
+														<li><a href="monel-400-pipes.html">Monel 400</a>
+														<li><a href="monel-500-pipes.html">Monel 500</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-children"><a href="hastelloy-pipes.html">hastelloy</a>
+													<ul class="sub-menu">
+														<li><a href="hastelloy-c22-pipes.html">hastelloy C22</a>
+														<li><a href="hastelloy-c276-pipes.html">hastelloy C276</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-children"><a href="titanium-pipes.html">Titanium</a>
+													<ul class="sub-menu">
+														<li><a href="titanium-gr2-pipes.html">Titanium Gr 2</a>
+
+													</ul>
+												</li>
+												<li class="menu-item-children"><a href="aluminium-pipes.html">Aluminium
+														Pipes</a>
+													<ul class="sub-menu">
+														<li><a href="aluminium-commercial-pipes.html">Aluminium Pipes
+																Commercial</a></li>
+														<li><a href="aluminium-6063-pipes.html">Aluminium Pipes 6063</a></li>
+													</ul>
+												</li>
+												<li class="menu-item-children"><a href="copper-nickel-pipes.html">Copper
+														Nickel Pipes</a>
+													<ul class="sub-menu">
+														<li><a href="copper-nickel-7030-pipes.html">Copper Nickel 70/30</a>
+														</li>
+														<li><a href="copper-nickel-9010-pipes.html">Copper Nickel 90/10</a>
+														</li>
+													</ul>
+												</li>
+												<li class="menu-item-children"><a
+														href="carbon-alloy-steel-pipes.html">Carbon
+														and Alloy Steel
+														Pipes</a>
+													<ul class="sub-menu">
+														<li><a href="astm-a333-gr6-carbon-steel-pipes.html">ASTM A333 Gr 6</a></li>
+														<li><a href="astm-a106-gr-ab-carbon-steel-pipes.html">ASTM A106 Gr A/B</a></li>
+														<li><a href="astm-a53-gr-ab-carbon-steel-pipes.html">ASTM A53 Gr A/B</a></li>
+														<li><a href="a671-efw-carbon-steel-pipes.html">A671 CC60/CC65/CC70 EFW</a></li>
+														<li><a href="a672-efw-carbon-steel-pipes.html">A672 C60/C65/C70 EFW</a></li>
+														<li><a href="carbon-api5l-lines-pipes.html">API 5L
+																X42/X46/X52/X56/X60/X65/X70</a></li>
+														<li><a href="carbon-is4923-steel-hollow-pipes.html">IS 4923 YST 210/310/355</a>
+														</li>
+														<li><a href="astm-a335-alloy-steel-pipes.html">ASTM A335
+																P1/P2/P5/P9/P11/P22/P91/P92</a></li>
+														<li><a href="astm-a213-alloy-steel-tubes.html">ASTM A213
+																T2/T5/T9/T11/T22/T23/T91/T92</a></li>
+														<li><a href="astm-a691-efw-alloy-pipes.html">ASTM A691 GR1/GR2</a></li>
+													</ul>
+												</li>
+
+										</li>
+									</ul>
+									</li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="quality.html">Quality</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="technical-data.html">Technical Data</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
+							<div class="atf-header-bottom-right gap-4 d-flex align-items-center justify-content-end">
+								
+								<div class="call-to-action d-none d-lg-block"><a href="tel:9820454631">
+										<div class="call-to-action-item d-flex align-items-center"><span
+												class="call-to-action-icon"><i
+													class="fa-light fa-phone-volume"></i></span>
+											<div class="call-to-action-text">
+												<h3 class="mb-0">Call Us</h3><span
+													class="call-to-action-phone">9820454631</span>
+											</div>
+										</div>
+									</a></div>
+								<div class="atf-main-menu-bars d-block d-xl-none"><button
+										class="atf-hamburger-toogle"><i class="fa-light fa-bars"></i></button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- END HEADER SECTION-->
+
+		<!-- START HERO / BREADCRUMB SECTION -->
+		<section
+			style="background-image: url(assets/img/pipes_banner_2.jpg); background-size: cover; background-position: center center; padding: 100px 0; position: relative;">
+			<div style="position: absolute; inset: 0; background: rgba(0,0,0,0.75);"></div>
+			<div class="container text-center" style="position: relative; z-index: 1;">
+				<h1 class="display-4 fw-bold text-white mb-2 fade-up">Our <span style="color: #028bc5;">Product
+						Range</span></h1>
+				<p class="mb-4 mx-auto text-white fade-up delay-1" style="font-size: 18px; max-width: 750px;">A
+					comprehensive portfolio of high-integrity industrial piping solutions &#8211; From standard Stainless
+					Steel to exotic Super Alloys.</p>
+				<nav class="fade-up delay-2"
+					style="display: flex; justify-content: center; gap: 10px; font-size: 14px;">
+					<a href="index.html" class="text-white text-decoration-none">Home</a> <span
+						class="text-white opacity-50">/</span> <span class="fw-bold text-white">Our Products</span>
+				</nav>
+			</div>
+		</section>
+		<!-- END HERO SECTION -->
+
+		<main class="bg-light" style="padding: 80px 0;">
+			<div class="container">
+
+				<!-- Intro Text -->
+				<div class="row justify-content-center mb-5 fade-up">
+					<div class="col-lg-8 text-center">
+										<h2 class="fw-bold mb-3" style="color: #333;">Complete Steel &amp; Alloy Portfolio</h2>
+						<p class="text-muted">Steel Emporium provides a one-stop solution for all your industrial piping
+							requirements. Our products are sourced from world-class manufacturers and come with 100%
+							material traceability and MTC 3.1 certificates.</p>
+					</div>
+				</div>
+
+				<!-- PRODUCT GRID -->
+				<div class="row g-4">
+
+					<!-- 1. Stainless Steel Pipes -->
+					<div class="col-lg-4 col-md-6 fade-up">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="stainless-steel-pipes.html"><img src="assets/img/Stainless_Steel_pipes.webp" alt="SS Pipes" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="stainless-steel-pipes.html" style="color:#1a1a1a; text-decoration:none;">Stainless Steel Pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: 304, 316, 310, 321, 347, 904L. Available in
+									Seamless & Welded forms.</p>
+								<a href="stainless-steel-pipes.html"
+									class="atf-themes-btn w-100 text-center py-2" style="font-size: 13px;">View
+									Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 2. Duplex & Super Duplex -->
+					<div class="col-lg-4 col-md-6 fade-up delay-1">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="duplex-pipes.html"><img src="assets/img/duplex_steel.webp" alt="Duplex Steel" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="duplex-pipes.html" style="color:#1a1a1a; text-decoration:none;">Duplex pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: S31803, S32205 (2205), S32750 (2507). Extreme
+									strength and SCC resistance.</p>
+								<a href="duplex-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 2. Duplex & Super Duplex -->
+					<div class="col-lg-4 col-md-6 fade-up delay-1">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="super-duplex-pipes.html"><img src="assets/img/super_duplex.webp" alt="Duplex Steel" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="super-duplex-pipes.html" style="color:#1a1a1a; text-decoration:none;">Super Duplex pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: 2507,Zeron 100. Extreme strength and SCC
+									resistance.</p>
+								<a href="super-duplex-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 3. Nickel Alloy Pipes -->
+					<div class="col-lg-4 col-md-6 fade-up delay-2">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="nickel-pipes.html"><img src="assets/img/nickel_alloy_seamless.webp" alt="Nickel Pipes" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="nickel-pipes.html" style="color:#1a1a1a; text-decoration:none;">Nickel Alloy Pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: Nickel 200, 201. Commercially pure Nickel for
+									extreme caustic resistance.</p>
+								<a href="nickel-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 4. Inconel Pipes -->
+					<div class="col-lg-4 col-md-6 fade-up">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="inconel-pipes.html"><img src="assets/img/inconel_pipes.webp" alt="Inconel Pipes" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="inconel-pipes.html" style="color:#1a1a1a; text-decoration:none;">Inconel Pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: 600, 601, 625, 718, 800, 825. Best for
+									high-temperature & oxidation service.</p>
+								<a href="inconel-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 5. Monel Pipes -->
+					<div class="col-lg-4 col-md-6 fade-up delay-1">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="monel-pipes.html"><img src="assets/img/monel_pipes.webp" alt="Monel Pipes" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="monel-pipes.html" style="color:#1a1a1a; text-decoration:none;">Monel Pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: 400, K-500. Nickel-Copper alloys ideal for
+									marine and acid environments.</p>
+								<a href="monel-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 6. Hastelloy Pipes -->
+					<div class="col-lg-4 col-md-6 fade-up delay-2">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="hastelloy-pipes.html"><img src="assets/img/hastelloy_pipes.webp" alt="Hastelloy Pipes" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="hastelloy-pipes.html" style="color:#1a1a1a; text-decoration:none;">Hastelloy Pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: C22, C276. Superior resistance to aggressive
+									chemical process environments.</p>
+								<a href="hastelloy-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 7. Titanium Pipes -->
+					<div class="col-lg-4 col-md-6 fade-up">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="titanium-pipes.html"><img src="assets/img/titanium_pipes.webp" alt="Titanium Pipes" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="titanium-pipes.html" style="color:#1a1a1a; text-decoration:none;">Titanium Pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: Gr 2, Gr 5 (Ti6Al4V). High strength-to-weight
+									ratio and bio-compatibility.</p>
+								<a href="titanium-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 8. Aluminium Pipes -->
+					<div class="col-lg-4 col-md-6 fade-up delay-1">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="aluminium-pipes.html"><img src="assets/img/aluminium_pipes.webp" alt="Aluminium Pipes" class="card-img-top"
+								style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="aluminium-pipes.html" style="color:#1a1a1a; text-decoration:none;">Aluminium Pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: 6061, 6063, 5083. Lightweight solutions for
+									structural and HVAC projects.</p>
+								<a href="aluminium-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 9. Copper Nickel Pipes -->
+					<div class="col-lg-4 col-md-6 fade-up delay-2">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="copper-nickel-pipes.html"><img src="assets/img/copper_nickel_pipes.webp" alt="Copper Nickel Pipes"
+								class="card-img-top" style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="copper-nickel-pipes.html" style="color:#1a1a1a; text-decoration:none;">Copper Nickel Pipes</a></h5>
+								<p class="small text-muted mb-4">Grades: Cu-Ni 90/10, 70/30. High resistance to marine
+									corrosion and bio-fouling for ship-building.</p>
+								<a href="copper-nickel-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 9. Carbon & Alloy Steel -->
+					<div class="col-lg-4 col-md-6 fade-up delay-2">
+						<div class="product-card border rounded bg-white shadow-sm h-100 overflow-hidden">
+							<a href="carbon-alloy-steel-pipes.html"><img src="assets/img/carbon_alloy_steel_pipes.webp" alt="Carbon Steel Pipes"
+								class="card-img-top" style="height: 200px; object-fit: cover;"></a>
+							<div class="p-4">
+								<h5 class="fw-bold"><a href="carbon-alloy-steel-pipes.html" style="color:#1a1a1a; text-decoration:none;">Carbon & Alloy Steel</a></h5>
+								<p class="small text-muted mb-4">A106, A53, A333, A335 (P11, P22, P91). Engineered for
+									high-pressure boilers.</p>
+								<a href="carbon-alloy-steel-pipes.html" class="atf-themes-btn w-100 text-center py-2"
+									style="font-size: 13px;">View Details</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- GRADIENT CTA SECTION -->
+				<div class="mt-5 p-5 rounded-4 text-center text-white fade-up shadow-lg"
+					style="background: linear-gradient(135deg, #028bc5 0%, #01658a 100%);">
+					<h3 class="fw-bold mb-2">Can't find the specific grade or size?</h3>
+					<p style="color: white;"    class="mb-4" style="opacity: 0.9;">Our engineers can help you source customized industrial
+						solutions for your project blue-prints.</p>
+					<div class="d-flex justify-content-center gap-3 flex-wrap">
+						<a href="contact.html" class="btn fw-bold px-4 py-2 bg-white border-0" style="border-radius: 5px; color: #028bc5;"
+							style="border-radius: 5px;">Request a Callback</a>
+						<a href="tel:9819816599"
+							class="btn fw-bold px-4 py-2 bg-transparent text-white border-2 border-white"
+							style="border-radius: 5px; border: 2px solid #fff;">Call: 9819816599</a>
+					</div>
+				</div>
+
+			</div>
+		</main>
+
+		<style>
+			/* Premium Product Page Effects */
+			.product-card {
+				transition: 0.4s ease;
+				border: 1px solid #eee !important;
+			}
+
+			.product-card:hover {
+				transform: translateY(-10px);
+				box-shadow: 0 20px 40px rgba(2, 139, 197, 0.1) !important;
+				border-color: #028bc5 !important;
+			}
+
+			.product-card img {
+				transition: 0.5s ease;
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+				display: block;
+			}
+
+			.product-card a:has(img) {
+				display: block;
+				overflow: hidden;
+			}
+
+			.product-card:hover a:has(img) img {
+				transform: scale(1.08);
+			}
+
+			.atf-themes-btn {
+				background: #028bc5;
+				color: white;
+				border: none;
+				border-radius: 5px;
+				text-decoration: none;
+				display: block;
+				font-weight: 600;
+				transition: 0.3s;
+			}
+
+			.atf-themes-btn:hover {
+				background: #333;
+				color: white;
+			}
+
+			.fade-up {
+				opacity: 0;
+				transform: translateY(30px);
+				transition: opacity 0.8s ease, transform 0.8s ease;
+			}
+
+			.fade-up.visible {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		</style>
+
+		<!-- Animation Logic -->
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				const observer = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+						if (entry.isIntersecting) {
+							entry.target.classList.add('visible');
+						}
+					});
+				}, { threshold: 0.1 });
+				document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+			});
+		</script>
+
+		<footer>
+			<section class="atf-footer-area">
+				<div class="container">
+					<div class="row atf-section-padding">
+						<div class="col-lg-4 col-md-6 col-12 fadeInLeft">
+							<div class="atf-single-footer">
+								<a href="index.html"><img src="assets/img/steel-emporium-footer-logo.gif"
+										alt="Steel Emporium Logo"></a>
+								<p class="pe-lg-4">Steel Emporium is a trusted name in the steel industry, dedicated to
+									supplying high-quality steel products for a wide range of industrial, commercial,
+									and construction applications.</p>
+								<h3 class="mt-4 text-white title mb-0">Follow Us</h3>
+								<ul class="atf-footer-social-icon mt-4">
+									<li><a class="icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a class="icon" href="#"><i class="fab fa-x-twitter"></i></a></li>
+									<li><a class="icon" href="#"><i class="fab fa-instagram"></i></a></li>
+									<li><a class="icon" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-6 col-6 fadeInUp">
+							<div class="atf-single-footer">
+								<h3 class="title">Quick Links</h3>
+								<ul class="atf-list-menu">
+									<li> <a href="index.html">Home</a></li>
+									<li> <a href="about.html">About Us</a></li>
+									<li> <a href="contact.html">Contact Us</a></li>
+									<li> <a href="quality.html">Quality</a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6 fadeInUp">
+							<div class="atf-single-footer ms-lg-5">
+								<h3 class="title">Products</h3>
+								<ul class="atf-list-menu">
+									<li><a href="stainless-steel-pipes.html">Stainless Steel Pipes</a></li>
+									<li><a href="duplex-pipes.html">Duplex Steel Pipes</a></li>
+									<li><a href="nickel-pipes.html">Nickel Alloy Pipes</a></li>
+									<li><a href="inconel-pipes.html">Inconel Pipes</a></li>
+									<li><a href="copper-nickel-pipes.html">Copper Nickel Pipes</a></li>
+								</ul>
+								<a href="products.html" class="mt-3 d-inline-block fw-bold small"
+									style="color:#028bc5; text-decoration:none; border:1px solid #028bc5; padding:6px 14px; border-radius:4px; transition:0.3s;"
+									onmouseover="this.style.background='#028bc5';this.style.color='#fff'"
+									onmouseout="this.style.background='transparent';this.style.color='#028bc5'">View All
+									Products &rarr;</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12 fadeInRight">
+							<div class="atf-single-footer">
+								<h3 class="title">Get In Touch</h3>
+								<div class="atf-contact-info">
+									<div class="atf-contact-details">
+										<span class="icon"><i class="fa-light fa-phone"></i></span>
+										<p><a href="+91 22 66362839">+91 22 66362839</a></p>
+									</div>
+
+									<div class="atf-contact-details">
+										<span class="icon"><i class="fa-light fa-envelope"></i></span>
+										<p><a href="mailto:sales@steelemporium.co.in">sales@steelemporium.co.in</a></p>
+									</div>
+									<div class="atf-contact-details">
+										<span class="icon"><i class="fa-light fa-map-marker-alt"></i></span>
+										<p>102, Durga Devi Street, Mumbai-400004, Maharashtra, India</p>
+									</div>
+								</div>
+								<h3 class="mt-3 text-white title mb-0">Office Hours</h3>
+								<div class="atf-office-time mt-3">
+									<span class="text-light">Monday - Saturday</span>
+									<p>9:00 AM - 8:00 PM</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					-<div class="row">
+						<div class="col-lg-12">
+							<div class="atf-footer-bottom text-center rounded-4">
+								<p>&copy;2026 Steel Emporium, All Right Reserved. Designed by <a class="link"
+										href="https://www.infotechmedia.in" target="_blank">Infotech Media</a> </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+
+	</div>
+	<!-- PAGE WRAPPER END-->
+
+
+	<!-- Latest jQuery -->
+	<script src="assets/js/jquery.min.js" defer></script>
+	<!-- Latest compiled and minified Bootstrap -->
+	<script src="assets/js/bootstrap.bundle.min.js" defer></script>
+	<!-- plugin js -->
+	<script src="assets/js/plugin.min.js" defer></script>
+	<script src="assets/js/gsap.js" defer></script>
+	<!-- form-contact js -->
+	<script src="assets/js/form-contact.js" defer></script>
+	<!-- main js -->
+	<script src="assets/js/main.js" defer></script>
+
+
+
+</body>
+
+<!-- Mirrored from lexversa-law.vercel.app/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Mar 2026 10:39:37 GMT -->
+
+</html>

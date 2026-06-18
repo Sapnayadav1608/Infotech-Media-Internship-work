@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Joyland Waterpark — get in touch for bookings, group packages, resort stay & more. Located near Jeladi Beach, Virar West.">
+    <title>Contact Us – Joyland Waterpark | Best Waterpark in Virar</title>
+    <link rel="icon" type="image/png" href="images/logo.webp">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Bubbles -->
+    <div class="bubbles">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="topbar">
+        <div class="container">
+            <span><a href="https://maps.app.goo.gl/H4nS2BGSvL2XgeWAA" target="_blank"><i class="fas fa-map-marker-alt"></i> Jeladi Beach Road, Vatar, Navapur, Virar West, Maharashtra
+                401301</a></span>
+            <span><a href="tel:+919850889021"><i class="fas fa-phone"></i> +91 98508 89021</a></span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.webp" alt="Joyland Waterpark Logo">
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+919850889021" class="btn-book">Book Now</a>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner contact-banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-content fade-up">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you — reach out for bookings, queries & more!</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Contact Us</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Cards -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card fade-up">
+                    <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h4>Our Location</h4>
+                    <p><a href="https://maps.app.goo.gl/H4nS2BGSvL2XgeWAA" target="_blank">Jeladi Beach Road, Vatar, Navapur, Virar West, Maharashtra 401301</a></p>
+                </div>
+                <div class="contact-info-card fade-up">
+                    <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+                    <h4>Call Us</h4>
+                    <p><a href="tel:+919850889021">+91 98508 89021</a></p>
+                </div>
+                <div class="contact-info-card fade-up">
+                    <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+                    <h4>Email Us</h4>
+                    <p><a href="mailto:info@joylandwaterpark.co.in">info@joylandwaterpark.co.in</a></p>
+                    <p><a href="mailto:bookings@joylandwaterpark.co.in">bookings@joylandwaterpark.co.in</a></p>
+                </div>
+                <div class="contact-info-card fade-up">
+                    <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
+                    <h4>Opening Hours</h4>
+                    <p>Monday – Sunday</p>
+                    <p>9:00 AM – 6:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form + Map -->
+    <section class="contact-main-section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Form -->
+                <div class="contact-form-wrap fade-up">
+                    <div class="section-header" style="text-align:left; margin-bottom:30px;">
+                        <span class="section-badge">Get In Touch</span>
+                        <h2>Send Us a Message</h2>
+                        <p>Fill in the form below and we'll get back to you within 24 hours!</p>
+                    </div>
+                    <form class="contact-form" id="contactForm" method="POST" action="sendmail.php">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Your Name</label>
+                                <input type="text" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" name="phone" placeholder="Enter your phone number" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" name="email" placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <select name="subject">
+                                <option value="">Select a subject</option>
+                                <option>General Enquiry</option>
+                                <option>Package Booking</option>
+                                <option>Resort Stay</option>
+                                <option>Group / School Trip</option>
+                                <option>Corporate Outing</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea name="message" rows="5" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary"
+                            style="width:100%; border:none; cursor:pointer; font-family:'Poppins',sans-serif;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Map + Social -->
+                <div class="contact-map-wrap fade-up">
+                    <div class="section-header" style="text-align:left; margin-bottom:30px;">
+                        <span class="section-badge">Find Us</span>
+                        <h2>How to Reach Us</h2>
+                        <p>We are located near Jeladi Beach, Virar West — just 60 km from Mumbai!</p>
+                    </div>
+                    <div class="contact-reach-list">
+                        <div class="reach-item">
+                            <i class="fas fa-train"></i>
+                            <div>
+                                <h5>By Train</h5>
+                                <p>Take Western Railway to Virar station, then auto/cab to Jeladi Beach Road (10 min)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reach-item">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <h5>By Road</h5>
+                                <p>Via Western Express Highway towards Virar — approx 60-70 km from Mumbai</p>
+                            </div>
+                        </div>
+                        <div class="reach-item">
+                            <i class="fas fa-parking"></i>
+                            <div>
+                                <h5>Parking</h5>
+                                <p>Free ample parking available for cars, buses & two-wheelers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h5>Follow Us</h5>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/joyland_waterpark" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@JoylandResortWaterpark" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://wa.me/919850889021" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="contact-map-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-badge">Our Location</span>
+                <h2>Find Us on the Map</h2>
+                <p>Joyland Waterpark & Beach Resort — Jeladi Beach Road, Virar West, Maharashtra 401301</p>
+            </div>
+            <div class="contact-map fade-up">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.446387483909!2d72.75333597594215!3d19.43631174056093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7aba9e6506629%3A0x591d05099b87a7a3!2sJOYLAND%20Waterpark%20And%20Beach%20Resort!5e0!3m2!1sen!2sus!4v1780142846034!5m2!1sen!2sus"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq contact-faq">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-badge">FAQs</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions!</p>
+            </div>
+            <div class="faq-list fade-up">
+                <div class="faq-item">
+                    <div class="faq-question"><span>How can I book a package at Joyland?</span><i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer">
+                        <p>You can book by calling us, sending a WhatsApp message, or filling out the contact form
+                            above. We'll confirm your booking within 24 hours.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question"><span>Do you accept online payments?</span><i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer">
+                        <p>Yes! We accept UPI, bank transfer & cash payments. Online advance payment is available for
+                            group & resort bookings.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question"><span>How early should I book for weekends?</span><i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer">
+                        <p>We recommend booking at least 2-3 days in advance for weekends and 5-7 days for public
+                            holidays to ensure availability.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question"><span>Can I visit without prior booking?</span><i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer">
+                        <p>Yes, walk-ins are welcome for general entry on weekdays. However, advance booking is
+                            recommended for weekends, holidays & group visits.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question"><span>What is your cancellation policy?</span><i
+                            class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer">
+                        <p>Bookings can be rescheduled up to 48 hours before the visit. Cancellations made less than 48
+                            hours prior may not be eligible for a refund.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html"><img src="images/logo.webp" alt="Joyland Waterpark" class="footer-logo"></a>
+                    <p>Joyland Waterpark — Virar's best waterpark & beach resort near Jeladi Beach. Thrilling rides,
+                        resort stay, delicious food & fun for the whole family!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/joyland_waterpark" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@JoylandResortWaterpark" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/919850889021" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="packages.html#general-entry">Water Rides</a></li>
+                        <li><a href="packages.html#resort-stay">Resort Stay</a></li>
+                        <li><a href="packages.html#family-package">Family Packages</a></li>
+                        <li><a href="packages.html#group-package">Group Packages</a></li>
+                        <li><a href="packages.html#school-trip">School Trips</a></li>
+                        <li><a href="packages.html#corporate-outing">Corporate Outings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Visit Us</h4>
+                    <ul class="footer-contact">
+                        <li><a href="https://maps.app.goo.gl/H4nS2BGSvL2XgeWAA" target="_blank"><i class="fas fa-map-marker-alt"></i> Jeladi Beach Road, Vatar, Navapur, Virar West,
+                            Maharashtra 401301</a></li>
+                        <li><a href="tel:+919850889021"><i class="fas fa-phone"></i> +91 98508 89021</a></li>
+                        <li><a href="mailto:info@joylandwaterpark.co.in"><i class="fas fa-envelope"></i> info@joylandwaterpark.co.in</a></li>
+                        <li><i class="fas fa-clock"></i> Open Daily: 9:00 AM – 6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Joyland Waterpark. All Rights Reserved. | Designed by <a href="https://infotechmedia.in"
+                        target="_blank" style="color:#f9c74f;text-decoration:none;">Infotech Media</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Social Buttons -->
+    <div class="floating-socials">
+        <a href="https://wa.me/919850889021" class="float-btn float-whatsapp" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://instagram.com/joyland_waterpark" class="float-btn float-instagram" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Booking Modal -->
+    <div class="booking-modal-overlay" id="bookingModal">
+    <div class="booking-modal">
+        <button class="booking-modal-close" id="closeModal"><i class="fas fa-times"></i></button>
+        <h2>Book Your Visit 🌊</h2>
+        <p class="modal-sub">Fill in the details and we will get back to you shortly!</p>
+
+        <!-- action aur method HATAO form se -->
+        <form id="bookingForm">
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" name="bName" id="bName" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" name="bPhone" id="bPhone" placeholder="+91 XXXXX XXXXX" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="bEmail" id="bEmail" placeholder="Enter your email">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Package</label>
+                    <select id="bPackage" name="bPackage">
+                        <option value="">Select Package</option>
+                        <option>General Entry</option>
+                        <option>Kids Entry</option>
+                        <option>Family Package</option>
+                        <option>Couple Package</option>
+                        <option>Group Package</option>
+                        <option>School / College Trip</option>
+                        <option>Corporate Outing</option>
+                        <option>Resort Stay + Entry</option>
+                        <option>Weekend Getaway</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Visit Date</label>
+                    <input type="date" name="bDate" id="bDate">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Number of Persons</label>
+                <input type="number" name="bPersons" id="bPersons" placeholder="e.g. 4" min="1">
+            </div>
+            <div class="form-group">
+                <label>Message (Optional)</label>
+                <textarea id="bMessage" name="bMessage" rows="3" placeholder="Any special requirements..."></textarea>
+            </div>
+            <button type="submit" class="booking-modal-submit" id="bookingSubmit">Send Booking Request 🎉</button>
+        </form>
+
+        <div class="booking-modal-success" id="bookingSuccess" style="display:none;">
+            <i class="fas fa-check-circle"></i>
+            <h3>Booking Request Sent!</h3>
+            <p>Thank you! We will contact you shortly on your phone/email to confirm your booking.</p>
+        </div>
+
+    </div>
+</div>
+    <script src="js/main.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+
+</html>

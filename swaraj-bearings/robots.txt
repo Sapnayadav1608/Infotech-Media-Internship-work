@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+Sitemap: https://swarajbearings.com/sitemap.xml

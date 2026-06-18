@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Force HTTPS and non-WWW
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.steelemporiumpipes\.com$ [NC]
+RewriteRule ^(.*)$ https://steelemporiumpipes.com/$1 [R=301,L]
+
+# Old URL redirects
+RewriteRule ^aluminium_commercial\.html$ https://steelemporiumpipes.com/aluminium-commercial-pipes.html [R=301,L]
+RewriteRule ^aluminium_6063\.html$ https://steelemporiumpipes.com/aluminium-6063-pipes.html [R=301,L]

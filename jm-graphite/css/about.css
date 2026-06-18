@@ -1,0 +1,394 @@
+/* About Page Hover Effects */
+
+/* Company Card Hover */
+.company-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.company-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(220, 53, 69, 0.1);
+    transition: left 0.4s ease;
+    z-index: 1;
+}
+
+.company-card:hover::before {
+    left: 100%;
+}
+
+/* Company Content Hover */
+.company-content h2 {
+    transition: color 0.3s ease;
+}
+
+.company-content:hover h2 {
+    color: #dc3545;
+}
+
+/* Feature Items Hover */
+.feature-item {
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+    background-color: rgba(220, 53, 69, 0.05);
+    border-left: 4px solid #dc3545;
+    padding-left: 20px;
+}
+
+.feature-item i {
+    transition: all 0.3s ease;
+    color: #dc3545;
+}
+
+.feature-item:hover i {
+    transform: scale(1.2) rotate(10deg);
+    color: #c82333;
+}
+
+.feature-item h6 {
+    transition: color 0.3s ease;
+}
+
+.feature-item:hover h6 {
+    color: #dc3545;
+}
+
+/* Stats Card Hover */
+.stats-card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.stats-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.5s ease;
+}
+
+.stats-card:hover::after {
+    left: 100%;
+}
+
+.stats-card:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 20px 50px rgba(220, 53, 69, 0.3) !important;
+}
+
+.counter-number {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.stats-card:hover .counter-number {
+    color: #c82333;
+    transform: scale(1.1);
+}
+
+/* Product Card Hover */
+.product-card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    border-radius: 8px;
+}
+
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(220, 53, 69, 0.1), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.product-card:hover::before {
+    opacity: 1;
+}
+
+.product-card:hover {
+    transform: translateY(-12px) rotateX(5deg);
+    box-shadow: 0 15px 40px rgba(220, 53, 69, 0.2) !important;
+}
+
+.product-card i {
+    transition: all 0.3s ease;
+}
+
+.product-card:hover i {
+    color: #c82333;
+    transform: scale(1.2) rotate(-10deg);
+}
+
+.product-card h6 {
+    transition: color 0.3s ease;
+}
+
+.product-card:hover h6 {
+    color: #dc3545;
+}
+
+/* Industry Card Hover */
+.industry-card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.industry-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(220, 53, 69, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.industry-card:hover::before {
+    opacity: 1;
+}
+
+.industry-card img {
+    transition: all 0.4s ease;
+    transform-origin: center;
+}
+
+.industry-card:hover img {
+    transform: scale(1.15) rotate(2deg);
+    filter: brightness(0.9);
+}
+
+.industry-card:hover {
+    transform: scale(1.08) translateY(-8px);
+    box-shadow: 0 20px 50px rgba(220, 53, 69, 0.25) !important;
+}
+
+.industry-card .card-body {
+    transition: all 0.3s ease;
+}
+
+.industry-card:hover .card-body {
+    background-color: rgba(220, 53, 69, 0.05);
+}
+
+.industry-card .card-title {
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+.industry-card:hover .card-title {
+    color: #dc3545;
+    transform: translateY(-5px);
+}
+
+.industry-card h2 {
+    color: white;
+}
+
+/* Hero Section Hover */
+.hero-title {
+    transition: none;
+}
+
+.hero-title:hover {
+    text-shadow: none;
+}
+
+/* Section Title Hover */
+.section-title {
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    color: #dc3545;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #dc3545;
+    transition: width 0.4s ease;
+}
+
+.section-title:hover::after {
+    width: 100%;
+}
+
+.bg-primary .section-title {
+    color: white;
+}
+
+.bg-primary .section-title::after {
+    background: white;
+}
+
+/* Industries Section Title Hover */
+.industries-title {
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    color: #333 !important;
+}
+
+.industries-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #dc3545;
+    transition: width 0.4s ease;
+}
+
+.industries-title:hover {
+    color: #333 !important;
+    transform: translateY(-3px);
+}
+
+.industries-title:hover::after {
+    width: 100%;
+}
+
+/* Breadcrumb Hover */
+.breadcrumb-item a {
+    transition: all 0.3s ease;
+}
+
+.breadcrumb-item a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+/* Button Hover Effects */
+.btn-primary {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.btn-primary:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(220, 53, 69, 0.3);
+}
+
+/* Smooth Transitions */
+*:not(body):not(html) {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Glow Effect on Hover */
+.card {
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.card:hover {
+    filter: drop-shadow(0 0 15px rgba(220, 53, 69, 0.3));
+}
+
+/* Text Hover Effects */
+h1, h3, h4, h5, h6 {
+    transition: all 0.3s ease;
+}
+
+h1:not(.mega-menu *):hover,
+h3:not(.mega-menu *):hover,
+h4:not(.mega-menu *):hover,
+h5:not(.mega-menu *):hover,
+h6:not(.mega-menu *):hover {
+    color: #c82333 !important;
+}
+
+h2 {
+    transition: all 0.3s ease;
+}
+
+h2:not(.industries-title):not(.mega-menu *):hover {
+    color: #c82333 !important;
+}
+
+/* Industries Title - No Color Change */
+.industries-title,
+.industries-title:hover {
+    color: #333 !important;
+}
+
+.industries-title h2,
+.industries-title h2:hover {
+    color: #333 !important;
+}
+
+/* Icon Hover Effects */
+i {
+    transition: all 0.3s ease;
+}
+
+i:not(.mega-menu *):hover {
+    transform: scale(1.15) rotate(5deg);
+}
+
+/* Image Hover Effects */
+img {
+    transition: all 0.3s ease;
+}
+
+img:not(.mega-menu *):hover {
+    filter: brightness(1.1) contrast(1.1);
+}
+
+/* Focus States */
+.card:focus-within {
+    outline: 2px solid #dc3545;
+    outline-offset: 2px;
+}
+
+/* Active States */
+.card:active {
+    transform: scale(0.98);
+}

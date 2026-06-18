@@ -1,0 +1,312 @@
+/*--------------------------------------------------------------
+# Certificate Page Hero
+--------------------------------------------------------------*/
+.about-hero {
+  min-height: 420px;
+  position: relative;
+  background: url('../img/hero.webp') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 140px 0 80px 0;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(164,64,53,0.82), rgba(26,14,12,0.9));
+}
+
+.about-hero h1 {
+  font-size: 46px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.about-hero h1 span { color: #d2ae6d; }
+
+.about-hero p {
+  font-size: 17px;
+  color: rgba(255,255,255,0.85);
+}
+
+.about-badge {
+  display: inline-block;
+  background: #a44035;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 2px;
+  margin-bottom: 18px;
+}
+
+/*--------------------------------------------------------------
+# Certificate Detail Cards
+--------------------------------------------------------------*/
+.cert-detail-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  height: 100%;
+  border-top: 3px solid #a44035;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+  transition: all 0.3s ease;
+}
+
+.cert-detail-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(164,64,53,0.12);
+}
+
+.cert-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+.cert-detail-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #a44035, #d2ae6d);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cert-detail-icon i {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.cert-detail-header h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #a44035;
+  margin: 0 0 5px 0;
+}
+
+.cert-tag {
+  background: #fff8f0;
+  color: #a44035;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.cert-detail-card p {
+  font-size: 14px;
+  color: #6b4c47;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.cert-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cert-points li {
+  font-size: 13px;
+  color: #3a2a28;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(164,64,53,0.08);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cert-points li i {
+  color: #d2ae6d;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+/*--------------------------------------------------------------
+# Standards Cards
+--------------------------------------------------------------*/
+.std-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 25px;
+  height: 100%;
+  border-left: 4px solid #d2ae6d;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+.std-card:hover {
+  border-left-color: #a44035;
+  box-shadow: 0 6px 20px rgba(164,64,53,0.1);
+}
+
+.std-card h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #a44035;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.std-card h5 i { color: #d2ae6d; }
+
+.std-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.std-card ul li {
+  font-size: 13px;
+  color: #3a2a28;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(164,64,53,0.08);
+}
+
+/*--------------------------------------------------------------
+# TPI Cards
+--------------------------------------------------------------*/
+.tpi-card {
+  background: #fff8f0;
+  border-radius: 8px;
+  padding: 25px 15px;
+  text-align: center;
+  border-bottom: 3px solid #d2ae6d;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+.tpi-card:hover {
+  transform: translateY(-5px);
+  border-bottom-color: #a44035;
+  box-shadow: 0 8px 20px rgba(164,64,53,0.12);
+}
+
+.tpi-card i {
+  font-size: 32px;
+  color: #a44035;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.tpi-card h6 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #3a2a28;
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Small Certificate Cards (Lightbox)
+--------------------------------------------------------------*/
+.cert-card-small {
+  display: block;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  border-bottom: 3px solid #d2ae6d;
+}
+
+.cert-card-small:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(164,64,53,0.15);
+  border-bottom-color: #a44035;
+}
+
+.cert-thumb {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  background: #fff8f0;
+}
+
+.cert-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.cert-card-small:hover .cert-thumb img {
+  transform: scale(1.05);
+}
+
+.cert-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(164,64,53,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.cert-card-small:hover .cert-overlay {
+  opacity: 1;
+}
+
+.cert-overlay i {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.cert-pdf-thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.cert-pdf-thumb i.bi-file-earmark-pdf-fill {
+  font-size: 55px;
+  color: #a44035;
+}
+
+.cert-pdf-thumb p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #3a2a28;
+  margin: 0;
+}
+
+.cert-card-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px;
+}
+
+.cert-card-info h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #a44035;
+  margin: 0 0 3px 0;
+}
+
+.cert-card-info span {
+  font-size: 12px;
+  color: #6b4c47;
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 { font-size: 28px; }
+}
+

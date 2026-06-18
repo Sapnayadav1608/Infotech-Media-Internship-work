@@ -1,0 +1,592 @@
+/* =====================================================
+   SWARAJ BEARING - RESPONSIVE CSS (FINAL)
+   HTML files bilkul original hain - koi change nahi
+   ===================================================== */
+
+/* ===== GLOBAL ===== */
+html,
+body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* ===== NAVBAR FIX - Scroll pe hamesha dikhega ===== */
+.top-bar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 1051 !important;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.top-bar.hide-topbar {
+    transform: translateY(-100%) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+.navbar.sticky-top,
+.navbar {
+    position: fixed !important;
+    top: 42px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 1050 !important;
+    transition: top 0.3s ease;
+}
+
+.navbar.nav-top-zero {
+    top: 0 !important;
+}
+
+@media (max-width: 991.98px) {
+
+    .navbar.sticky-top,
+    .navbar {
+        top: 0 !important;
+    }
+}
+
+body {
+    padding-top: 126px !important;
+}
+
+@media (max-width: 991.98px) {
+    body {
+        padding-top: 70px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    body {
+        padding-top: 62px !important;
+    }
+}
+
+/* ===== NAVBAR RESPONSIVE ===== */
+@media (max-width: 991.98px) {
+    .navbar {
+        padding: 8px 0 !important;
+    }
+
+    .navbar-brand img {
+        height: 42px !important;
+        width: auto !important;
+    }
+
+    .navbar-collapse {
+        background: #fff !important;
+        padding: 10px 15px !important;
+        border-top: 3px solid #1063BB !important;
+        margin-top: 8px !important;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08) !important;
+        border-radius: 0 0 8px 8px !important;
+    }
+
+    .nav-link {
+        padding: 10px 0 !important;
+        margin: 0 !important;
+        border-bottom: 1px solid #f0f4f8 !important;
+        font-size: 0.88rem !important;
+        letter-spacing: 0.8px !important;
+    }
+
+    .nav-link::after {
+        display: none !important;
+    }
+
+    .navbar-nav .btn-swaraj,
+    .navbar-nav a.btn-swaraj {
+        width: 100% !important;
+        text-align: center !important;
+        margin-top: 10px !important;
+        padding: 10px 20px !important;
+        display: block !important;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #1063BB !important;
+        padding: 5px 10px !important;
+        border-radius: 4px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar-brand img {
+        height: 36px !important;
+    }
+
+    .top-bar {
+        display: none !important;
+    }
+}
+
+/* ===== PAGE HEADERS ===== */
+@media (max-width: 991.98px) {
+
+    .page-header,
+    header[style*="padding: 110px"],
+    header[style*="padding:110px"] {
+        padding: 90px 0 55px !important;
+        background-attachment: scroll !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .page-header,
+    header[style*="padding: 110px"],
+    header[style*="padding:110px"] {
+        padding: 70px 0 45px !important;
+        background-attachment: scroll !important;
+    }
+
+    .page-header h1,
+    header h1 {
+        font-size: clamp(1.6rem, 5vw, 2.2rem) !important;
+        letter-spacing: -1px !important;
+    }
+
+    .page-header p,
+    header p {
+        font-size: 0.88rem !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .page-header,
+    header[style*="padding: 110px"],
+    header[style*="padding:110px"] {
+        padding: 60px 0 35px !important;
+    }
+}
+
+/* ===== HERO CAROUSEL ===== */
+@media (max-width: 991.98px) {
+    .carousel-item {
+        height: 65vh !important;
+        min-height: 400px !important;
+    }
+
+    .carousel-caption {
+        bottom: 12% !important;
+        left: 5% !important;
+        right: 5% !important;
+    }
+
+    .carousel-title {
+        font-size: 2.2rem !important;
+        letter-spacing: -1px !important;
+    }
+
+    .carousel-para {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel-item {
+        height: 55vh !important;
+        min-height: 340px !important;
+    }
+
+    .carousel-caption {
+        bottom: 8% !important;
+        left: 4% !important;
+        right: 4% !important;
+        text-align: center !important;
+    }
+
+    .carousel-title {
+        font-size: 1.6rem !important;
+        line-height: 1.1 !important;
+        letter-spacing: -0.5px !important;
+    }
+
+    .carousel-para {
+        font-size: 0.8rem !important;
+        margin-bottom: 12px !important;
+    }
+
+    .carousel-caption .d-flex {
+        flex-direction: column !important;
+        gap: 8px !important;
+        align-items: center !important;
+    }
+
+    .carousel-caption .btn-swaraj,
+    .carousel-caption .btn-light {
+        width: 100% !important;
+        max-width: 280px !important;
+        text-align: center !important;
+        padding: 11px 18px !important;
+        font-size: 0.76rem !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .carousel-item {
+        height: 60vh !important;
+        min-height: 320px !important;
+    }
+
+    .carousel-title {
+        font-size: 1.35rem !important;
+    }
+
+    .carousel-para {
+        font-size: 0.73rem !important;
+    }
+}
+
+/* ===== SECTIONS ===== */
+@media (max-width: 991.98px) {
+    .section-padding {
+        padding: 65px 0 !important;
+    }
+
+    .section-title {
+        font-size: 2rem !important;
+    }
+
+    .about-legacy-card {
+        padding: 35px 25px !important;
+    }
+
+    .experience-bubble {
+        top: -15px !important;
+        right: 15px !important;
+        padding: 15px !important;
+    }
+
+    .cta-box {
+        padding: 45px 25px !important;
+    }
+
+    .form-wrapper {
+        padding: 30px 20px !important;
+    }
+
+    .cert-box {
+        padding: 28px 18px !important;
+    }
+
+    .partner-card {
+        padding: 30px 20px !important;
+    }
+
+    .stats-banner {
+        padding: 50px 0 !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section-padding {
+        padding: 45px 0 !important;
+    }
+
+    .section-title {
+        font-size: 1.7rem !important;
+        letter-spacing: 0 !important;
+    }
+
+    .sub-tag {
+        font-size: 0.7rem !important;
+        letter-spacing: 2px !important;
+    }
+
+    .about-legacy-card {
+        padding: 22px 16px !important;
+    }
+
+    .experience-bubble {
+        position: static !important;
+        display: inline-block !important;
+        margin-bottom: 18px !important;
+        border-radius: 4px !important;
+        animation: none !important;
+    }
+
+    .value-card {
+        padding: 20px 15px !important;
+    }
+
+    .partner-card {
+        padding: 22px 18px !important;
+    }
+
+    .brand-pill {
+        padding: 5px 14px !important;
+        font-size: 0.78rem !important;
+    }
+
+    .product-img-box {
+        height: 170px !important;
+    }
+
+    .shine-section {
+        padding: 22px 0 !important;
+    }
+
+    .cert-box {
+        padding: 20px 14px !important;
+    }
+
+    .industry-icon-wrap {
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    .industry-icon-wrap i {
+        font-size: 1.4rem !important;
+    }
+
+    .cta-box {
+        padding: 28px 16px !important;
+        text-align: center !important;
+    }
+
+    .cta-box .col-lg-4 {
+        text-align: center !important;
+        margin-top: 15px !important;
+    }
+
+    .form-wrapper {
+        padding: 20px 14px !important;
+        border-left: 4px solid #1063BB !important;
+    }
+
+    .d-flex.gap-3 {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+
+    .btn-swaraj {
+        width: 100% !important;
+        text-align: center !important;
+        padding: 12px 24px !important;
+        font-size: 0.78rem !important;
+    }
+
+    .btn-light {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    footer {
+        padding: 40px 0 20px !important;
+    }
+
+    .stats-banner .stat-item {
+        border-right: none !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+        padding-bottom: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    [style*="background-attachment: fixed"],
+    [style*="background-attachment:fixed"] {
+        background-attachment: scroll !important;
+    }
+
+    h1,
+    h2,
+    h3 {
+        word-break: break-word !important;
+        overflow-wrap: break-word !important;
+    }
+
+    .container {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section-padding {
+        padding: 32px 0 !important;
+    }
+
+    .section-title {
+        font-size: 1.4rem !important;
+    }
+
+    .cert-box i {
+        font-size: 2rem !important;
+    }
+
+    .industry-icon-wrap {
+        width: 46px !important;
+        height: 46px !important;
+    }
+
+    .industry-icon-wrap i {
+        font-size: 1.1rem !important;
+    }
+
+    .about-legacy-card {
+        padding: 18px 14px !important;
+    }
+
+    .cta-box {
+        padding: 22px 14px !important;
+    }
+
+    footer {
+        padding: 28px 0 15px !important;
+    }
+
+    .partner-card {
+        padding: 18px 14px !important;
+    }
+
+    [style*="max-width: 600px"],
+    [style*="max-width: 580px"],
+    [style*="max-width: 800px"],
+    [style*="max-width:600px"],
+    [style*="max-width:580px"],
+    [style*="max-width:800px"] {
+        max-width: 100% !important;
+    }
+}
+
+/* Footer copyright mobile */
+@media (max-width: 767.98px) {
+    footer .d-flex.justify-content-between {
+        flex-direction: column !important;
+        text-align: center !important;
+        gap: 6px !important;
+    }
+}
+@media (max-width: 575.98px) {
+    #pdf-modal>div {
+        max-height: 85vh !important;
+    }
+
+    #cert-modal>div {
+        max-width: 95vw !important;
+        max-height: 85vh !important;
+    }
+}
+
+/* ===== PAGE SPECIFIC ===== */
+@media (max-width: 991.98px) {
+    .page-header-catalogue,
+    .page-header-industries {
+        padding: 90px 0 55px !important;
+        background-attachment: scroll !important;
+    }
+
+    .form-wrapper-contact {
+        padding: 35px 25px !important;
+    }
+
+    .catalogue-card {
+        padding: 25px 15px !important;
+    }
+
+    .industry-detail-card {
+        padding: 20px 15px !important;
+    }
+
+    .zvl-strip {
+        padding: 25px !important;
+    }
+
+    .partner-card {
+        padding: 30px 20px !important;
+    }
+
+    .info-card {
+        padding: 25px 15px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .page-header-catalogue,
+    .page-header-industries {
+        padding: 70px 0 45px !important;
+        background-attachment: scroll !important;
+    }
+
+    .industries-cta,
+    .cta-section,
+    .cert-cta,
+    .catalogue-cta {
+        background-attachment: scroll !important;
+        padding: 30px 0 !important;
+    }
+
+    .form-wrapper-contact {
+        padding: 25px 15px !important;
+    }
+
+    .stat-divider {
+        border-right: none !important;
+        border-bottom: 2px solid #edf2f7 !important;
+        padding-bottom: 15px !important;
+    }
+
+    .stats-banner .stat-item {
+        border-right: none !important;
+        border-bottom: 1px solid rgba(255,255,255,0.15) !important;
+        padding-bottom: 30px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .industry-card-img {
+        height: 160px !important;
+    }
+
+    .zvl-strip {
+        padding: 20px !important;
+    }
+
+    .cert-catalogue-box {
+        padding: 18px !important;
+    }
+
+    .info-card {
+        padding: 20px 12px !important;
+    }
+
+    .social-contact a {
+        width: 38px !important;
+        height: 38px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .page-header-catalogue,
+    .page-header-industries {
+        padding: 60px 0 35px !important;
+    }
+
+    .catalogue-header-title,
+    .industries-header-title {
+        font-size: 1.6rem !important;
+        letter-spacing: -1px !important;
+    }
+
+    .industry-card-img {
+        height: 140px !important;
+    }
+
+    .partner-card {
+        padding: 20px 15px !important;
+    }
+
+    .form-wrapper-contact {
+        padding: 20px 12px !important;
+    }
+}

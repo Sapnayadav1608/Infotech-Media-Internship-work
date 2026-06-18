@@ -1,0 +1,477 @@
+/* =====================================================
+   PRODUCT DETAIL PAGES — GLOBAL CSS
+   Used by all individual product pages
+   ===================================================== */
+
+/* ── Navbar toggler icon ── */
+.navbar-toggler-icon-custom {
+    color: var(--swaraj-blue);
+}
+
+/* ── Page Header ── */
+.page-header {
+    padding: 110px 0 70px;
+    background: linear-gradient(rgba(8,61,119,0.88), rgba(8,61,119,0.88)), url('../img/banner1.webp') center/cover no-repeat fixed;
+    color: white;
+    text-align: center;
+}
+.page-header-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.page-header-subtitle {
+    color: #7eb8ff;
+    font-size: 1.1rem;
+}
+
+.breadcrumb-box {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50px;
+    padding: 10px 24px;
+}
+
+.breadcrumb-link {
+    color: #7eb8ff;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.breadcrumb-sep {
+    color: rgba(255,255,255,0.4);
+    font-size: 0.7rem;
+}
+
+.breadcrumb-current {
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.breadcrumb-dot {
+    font-size: 0.5rem;
+    vertical-align: middle;
+}
+
+/* ── Section Backgrounds ── */
+.section-white { background: #ffffff; }
+.section-light { background: #EAF2FB; }
+
+/* ── Product Detail Image ── */
+.product-detail-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-top: 6px solid var(--swaraj-blue);
+    border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+    .product-detail-img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-detail-img {
+        height: 220px;
+    }
+}
+
+/* ── Spec Table ── */
+.spec-table th {
+    background: var(--swaraj-blue);
+    color: white;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.spec-table td {
+    font-size: 0.85rem;
+    vertical-align: middle;
+}
+
+.spec-table tr:nth-child(even) {
+    background: var(--bg-light);
+}
+
+/* ── Series Table ── */
+.series-table th {
+    background: var(--swaraj-blue);
+    color: white;
+    font-weight: 700;
+    font-size: 0.82rem;
+    text-align: center;
+}
+
+.series-table td {
+    font-size: 0.82rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.series-table tr:nth-child(even) { background: var(--bg-light); }
+.series-table tr:hover { background: #dce8f5; }
+
+/* ── Series Nav Buttons ── */
+.series-nav-btn {
+    padding: 8px 20px;
+    border: 2px solid var(--swaraj-blue);
+    border-radius: 50px;
+    color: var(--swaraj-blue);
+    font-weight: 700;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: 0.3s;
+    background: white;
+}
+
+.series-nav-btn.active,
+.series-nav-btn:hover {
+    background: var(--swaraj-blue);
+    color: white;
+}
+
+/* ── Series Section Toggle ── */
+.series-section { display: none; }
+.series-section.active { display: block; }
+
+/* ── Series Info Box ── */
+.series-info-box {
+    background: var(--bg-light);
+    border-left: 4px solid var(--swaraj-blue);
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.series-info-box strong {
+    color: var(--swaraj-blue);
+}
+
+/* ── Feature Item ── */
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.feature-item i {
+    color: var(--swaraj-blue);
+    font-size: 1.1rem;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+/* ── Type Card ── */
+.type-card {
+    border: 2px solid #f1f5f9;
+    border-top: 4px solid var(--swaraj-blue);
+    border-radius: 8px;
+    padding: 25px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.type-card:hover {
+    border-color: var(--swaraj-blue);
+    box-shadow: 0 15px 40px rgba(16,99,187,0.1);
+    transform: translateY(-5px);
+}
+
+/* ── Type Card Icon Box ── */
+.type-card-icon {
+    width: 55px;
+    height: 55px;
+    background: #eef5ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    flex-shrink: 0;
+}
+
+.type-card-icon i {
+    font-size: 1.6rem;
+    color: var(--swaraj-blue);
+}
+
+/* ── Why Choose Us Card Icon ── */
+.why-card-icon {
+    min-width: 48px;
+    height: 48px;
+    background: #eef5ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.why-card-icon i {
+    font-size: 1.3rem;
+    color: var(--swaraj-blue);
+}
+
+/* ── Stats Box ── */
+.stat-box {
+    background: var(--bg-light);
+    border-radius: 8px;
+    border-top: 4px solid var(--swaraj-blue);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.stat-box h3 {
+    color: var(--swaraj-blue);
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+/* ── Quality Info Box ── */
+.quality-box {
+    background: var(--bg-light);
+    border-radius: 8px;
+    border-left: 6px solid var(--swaraj-blue);
+    padding: 1.5rem;
+}
+
+.quality-box h5 {
+    color: var(--swaraj-blue);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+/* ── Brand Badge ── */
+.brand-badge {
+    display: inline-block;
+    padding: 6px 18px;
+    background: var(--bg-light);
+    border: 1px solid #dce8f5;
+    border-radius: 50px;
+    font-weight: 700;
+    color: var(--swaraj-blue);
+    margin: 4px;
+    font-size: 0.82rem;
+    transition: 0.3s;
+}
+
+.brand-badge:hover {
+    background: var(--swaraj-blue);
+    color: white;
+}
+
+/* ── Intro Link ── */
+.intro-link {
+    font-weight: 700;
+    color: var(--swaraj-blue);
+    text-decoration: none;
+}
+
+.intro-link:hover {
+    color: var(--swaraj-blue);
+}
+
+/* ── Brands desc max-width ── */
+.brands-desc { max-width: 650px; }
+.section-desc { max-width: 600px; }
+
+/* ── FAQ Accordion ── */
+.faq-accordion-item {
+    border: none;
+    border-left: 4px solid var(--swaraj-blue);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.faq-accordion-btn {
+    color: var(--swaraj-blue);
+    background: white;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.faq-accordion-btn:not(.collapsed) {
+    color: var(--swaraj-blue);
+    background: white;
+    box-shadow: none;
+}
+
+/* ── CTA Section ── */
+.cta-section {
+    background: linear-gradient(rgba(8,61,119,0.92), rgba(8,61,119,0.92)), url('../img/banner2.webp') center/cover no-repeat fixed;
+    padding: 35px 0;
+}
+
+.cta-title {
+    font-family: 'Outfit', sans-serif;
+}
+
+.cta-desc { max-width: 600px; }
+
+.btn-cta-outline {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-cta-primary {
+    color: var(--swaraj-blue);
+}
+
+/* ── Series Page Detail Image ── */
+.series-detail-img-wrap {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.series-detail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    max-height: 400px;
+}
+.series-card {
+    background: #ffffff;
+    border: 2px solid #e8f0fb;
+    border-top: 5px solid var(--swaraj-blue);
+    border-radius: 10px;
+    padding: 28px 28px 24px;
+    height: 100%;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.series-card:hover {
+    border-color: var(--swaraj-blue);
+    box-shadow: 0 16px 40px rgba(8,61,119,0.12);
+    transform: translateY(-5px);
+}
+
+.series-card-badge {
+    display: inline-block;
+    background: #eef5ff;
+    color: var(--swaraj-blue);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-bottom: 14px;
+}
+
+.series-card-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: var(--swaraj-blue);
+    margin-bottom: 10px;
+}
+
+.series-card-desc {
+    font-size: 0.88rem;
+    color: #6b7280;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.series-card-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.series-card-spec-tag {
+    background: #EAF2FB;
+    color: var(--swaraj-blue);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.series-card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--swaraj-blue);
+    color: white;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+    align-self: flex-start;
+}
+
+.series-card-link:hover {
+    background: #0a4a9a;
+    color: white;
+    gap: 12px;
+}
+
+.series-card-para-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.series-card-para-link:hover,
+.series-card-para-link:focus {
+    color: var(--swaraj-blue);
+    text-decoration: underline;
+}
+
+/* ── Footer ── */
+.site-footer {
+    background: #f8f9fa !important;
+    border-top: 4px solid var(--swaraj-blue);
+}
+
+.footer-logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-brand-text { color: var(--swaraj-blue); }
+.footer-heading { color: var(--swaraj-blue); }
+
+.footer-social-icon {
+    border: 1px solid var(--swaraj-blue);
+    color: var(--swaraj-blue);
+}
+
+.footer-hr { border-color: rgba(8,61,119,0.2); }
+.footer-copy { color: var(--swaraj-blue); }
+
+.footer-designer-link {
+    color: var(--swaraj-blue);
+    font-weight: 700;
+}

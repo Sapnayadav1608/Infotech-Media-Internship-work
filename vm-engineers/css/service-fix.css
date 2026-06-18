@@ -1,0 +1,49 @@
+/* Service Image Clickable Fix - Home Page */
+.service .service-item {
+    position: relative;
+}
+
+.service .service-item .service-img a {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.service .service-item > a {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+/* Make sure service-content and service-title stay above link */
+.service .service-item .service-content {
+    pointer-events: none;
+}
+
+.service .service-item .service-title {
+    pointer-events: none;
+}
+
+/* Desktop only - maintain hover effects WITHOUT overlays */
+@media (min-width: 992px) {
+    /* Remove content overlay */
+    .service .service-item:hover .service-content {
+        opacity: 0;
+        display: none;
+    }
+    
+    .service .service-item:hover .service-title {
+        margin-right: 0;
+    }
+    
+    /* Remove dark overlay */
+    .service .service-item:hover::after {
+        height: 0;
+        background: transparent;
+    }
+    
+    .service .service-item:hover .service-img img {
+        transform: scale(1.2);
+    }
+}

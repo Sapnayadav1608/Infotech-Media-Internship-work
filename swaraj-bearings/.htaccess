@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.swarajbearings\.com [NC]
+RewriteRule ^(.*)$ https://swarajbearings.com/$1 [L,R=301]

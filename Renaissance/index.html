@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home | RENAISSANCE-Fittings & Piping</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-936S1R74T4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-936S1R74T4');
+</script> 
+
+    <!-- Custom CSS for Theme & Image Uniformity -->
+    <style>
+        /* Carousel Content Centering */
+        .carousel .carousel-caption {
+            top: 0; left: 0; right: 0; bottom: 0;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important; 
+            justify-content: center !important; 
+            text-align: center !important; 
+            padding-left: 15px !important; 
+            background: rgba(0, 0, 0, 0.4); 
+        }
+
+        .theme-highlight {
+            color: #ee5b1b; 
+            font-weight: 800;
+        }
+
+        /* PRODUCT IMAGE SIZE EQUALIZER */
+        .service-item .service-inner img {
+            height: 250px; 
+            object-fit: cover; 
+            width: 100%;
+        }
+
+        /* Carousel images height fix for mobile */
+        @media (max-width: 768px) {
+            .carousel-caption h1 {
+                font-size: 2.2rem !important;
+                line-height: 1.2;
+            }
+            .carousel-item {
+                min-height: 450px;
+            }
+            .carousel-item img {
+                height: 450px;
+                object-fit: cover;
+            }
+        }
+
+        .carousel-inner img{
+            width: 400px;
+        }
+
+        /* WHY CHOOSE US ENHANCEMENTS */
+        .choice-box {
+            background: #ffffff;
+            border: 1px solid #f0f0f0;
+            padding: 40px 25px;
+            transition: all 0.4s ease;
+            height: 100%;
+            border-bottom: 4px solid transparent;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-radius: 5px;
+        }
+        .choice-box:hover {
+            transform: translateY(-12px);
+            border-bottom-color: #ee5b1b;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        .choice-icon {
+            width: 80px;
+            height: 80px;
+            background: #fff4f0; /* Light orange tint */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            border-radius: 50%;
+            transition: 0.4s;
+        }
+        .choice-box:hover .choice-icon {
+            background: #ee5b1b;
+        }
+        .choice-box:hover .choice-icon i {
+            color: #ffffff !important;
+        }
+    </style>
+</head>
+
+<!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="ms-auto d-flex align-items-center">
+                <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>Office No. 67, Kika Street, Mumbai, Maharshtra-400004.</small>
+                <small class="ms-4"><i class="fa fa-envelope me-3"></i>sales@rfpindia.com</small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+91 9819010468 / 22 6749 6156</small>
+                <div class="ms-auto d-flex">
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="RENAISSANCE" style="height: 100px;">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                                <a href="tube-fitting.html" class="dropdown-item">Tube Fitting</a>
+                                <a href="duplex-tube-fittings.html" class="dropdown-item">Duplex Tube Fittings</a>
+                                <a href="forged-fittings.html" class="dropdown-item">Forged Fittings</a>
+                                <a href="air-header.html" class="dropdown-item">Air Header</a>
+                                <a href="condensate-pot.html" class="dropdown-item">Condensate Pot</a>
+                            </div>
+                        </div>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-6 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/homebg1.png" alt="Industrial Fittings" style="height: 84vh;">
+                    <div class="carousel-caption">
+                        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn">Premium <span class="theme-highlight">Tube Fitting</span> Solutions</h1>
+                        <p class="fs-4 text-white mb-5">Trusted Manufacturer & Supplier for High-Pressure Piping Systems Globally.</p>
+                        <a href="tube-fitting.html" class="btn btn-primary py-3 px-5">View Products</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/homebg2.png" alt="Stainless Steel Pipes" style="height: 84vh;">
+                    <div class="carousel-caption">
+                        <h1 class="display-1 text-uppercase text-white mb-4 animated zoomIn">Global Suppliers of <span class="theme-highlight">SS Fittings</span></h1>
+                        <p class="fs-4 text-white mb-5">Certified Quality Meeting International Standards (ASTM, ASME, DIN, ANSI).</p>
+                        <a href="contact.html" class="btn btn-primary py-3 px-5">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Start -->
+    <div class="container-fluid pt-6 pb-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid w-100" src="img/about.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h2 class="display-6 text-uppercase mb-4">Renaissance Fittings & Piping - Delivering Excellence</h2>
+                    <p class="mb-4">Renaissance Fittings & Piping is a leading manufacturer, stockist, and exporter of industrial piping components specializing in Oil & Gas, Petrochemicals, Pharmaceuticals, and Power Plants.</p>
+                    <div class="row g-5 mb-4">
+                        <div class="col-sm-6 text-center text-sm-start">
+                            <i class="fa fa-check-circle fa-2x text-primary mb-2"></i>
+                            <h5 class="lh-base text-uppercase mb-0 text-dark">ISO Certified</h5>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-start">
+                            <i class="fa fa-globe fa-2x text-primary mb-2"></i>
+                            <h5 class="lh-base text-uppercase mb-0 text-dark">Worldwide Export</h5>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Start (ENHANCED) -->
+    <div class="container-fluid py-6 bg-light">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
+                <br>
+                <br>
+                <h6 class="text-primary text-uppercase mb-2" style="letter-spacing: 3px;">The Renaissance Advantage</h6>
+                <h2 class="display-6 text-uppercase">Why Choose Us</h2>
+            </div>
+            <div class="row g-4">
+                <!-- Box 1 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="choice-box text-center">
+                        <div class="choice-icon">
+                            <i class="fa fa-industry fa-2x text-primary"></i>
+                        </div>
+                        <h5 class="text-uppercase mb-3">Manufacturing Capability</h5>
+                        <p class="mb-0">Precision, consistency, and strict quality control. We maintain a wide inventory of materials to support both standard and custom requirements.</p>
+                    </div>
+                </div>
+                <!-- Box 2 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="choice-box text-center">
+                        <div class="choice-icon">
+                            <i class="fa fa-shipping-fast fa-2x text-primary"></i>
+                        </div>
+                        <h5 class="text-uppercase mb-3">Global Supply Chain</h5>
+                        <p class="mb-0">Export documentation and packaging aligned with international requirements to support EPC contractors globally without any delays.</p>
+                    </div>
+                </div>
+                <!-- Box 3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="choice-box text-center">
+                        <div class="choice-icon">
+                            <i class="fa fa-award fa-2x text-primary"></i>
+                        </div>
+                        <h5 class="text-uppercase mb-3">Engineering Accuracy</h5>
+                        <p class="mb-0">Ensuring 100% material traceability and dimensional accuracy. Our fittings perform consistently in high-pressure and demanding environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Choose Us End -->
+
+
+    <!-- Products Start -->
+    <div class="container-fluid service bg-light pt-6 pb-6">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h2 class="display-6 text-uppercase mb-5">Our Core Product Range</h2>
+            </div>
+            <div class="row g-4 text-center">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img src="img/tf.png" alt="Tube Fittings">
+                            <h5 class="text-uppercase mt-4">Tube Fittings</h5>
+                            <p class="px-3">Precision-engineered for leak-free flow control.</p>
+                            <a class="btn btn-light" href="tube-fitting.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img src="img/forpip.png" alt="Forged Fittings">
+                            <h5 class="text-uppercase mt-4">Forged fittings</h5>
+                            <p class="px-3">Built to withstand high pressure and vibrations.</p>
+                            <a class="btn btn-light" href="forged-fittings.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img src="img/airheader.png" alt="Air Header">
+                            <h5 class="text-uppercase mt-4">Air header</h5>
+                            <p class="px-3">Secure connectors for instrumentation layouts.</p>
+                            <a class="btn btn-light" href="air-header.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img src="img/condensate.png" alt="Condensate Pot">
+                            <h5 class="text-uppercase mt-4">Condensate pot</h5>
+                            <p class="px-3">High-strength solutions for process industries.</p>
+                            <a class="btn btn-light" href="condensate-pot.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+<div class="container-fluid bg-dark footer py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Our Office Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Our Office</h5>
+                
+                <!-- Address Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-map-marker-alt me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        Office No. 67, Kika Street, Mumbai, 400004.
+                    </div>
+                </div>
+
+                <!-- Phone Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-phone-alt me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        +91 9819010468 / 22 6749 6156
+                    </div>
+                </div>
+
+                <!-- Email Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-envelope me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        sales@rfpindia.com
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Quick Links</h5>
+                <a class="btn btn-link text-white" href="index.html">Home</a>
+                <a class="btn btn-link text-white" href="about.html">About Us</a>
+                <a class="btn btn-link text-white" href="contact.html">Contact Us</a>
+                <a class="btn btn-link text-white" href="blog.html">Blog</a>
+            </div>
+
+            <!-- Products Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Products</h5>
+                <a class="btn btn-link text-white" href="tube-fitting.html">Tube Fittings</a>
+                <a class="btn btn-link text-white" href="forged-fittings.html">Forged Fittings</a>
+                <a class="btn btn-link text-white" href="air-header.html">Air Header</a>
+                <a class="btn btn-link text-white" href="condensate-pot.html">Condensate Pot</a>
+            </div>
+
+            <!-- Business Hours Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Business Hours</h5>
+                <p class="mb-1 text-white">Monday - Saturday</p>
+                <p class="text-white">09:00 am - 07:00 pm</p>
+                <p class="mb-1 text-white">Sunday: <span style="color: #ee5b1b;">Closed</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+    <!-- Copyright -->
+    <div class="container-fluid text-body copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 text-white">
+                    &copy; <a class="fw-semi-bold text-white" href="#">RENAISSANCE - Fittings & Piping</a>, All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    Designed By <a class="fw-semi-bold text-white" href="https://infotechmedia.in/">Infotech Media</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

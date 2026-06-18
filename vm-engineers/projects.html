@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Our Projects - VM Engineers & Contractors</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="View our completed projects and portfolio of civil engineering works."
+        name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/vm-fevicon.png">
+    
+
+    <!-- Custom Hover Styles -->
+    <style>
+        .project-card {
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border-left: 4px solid #335E86;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(51, 94, 134, 0.2) !important;
+            border-left-color: #4c3c30;
+        }
+
+        .project-cost {
+            background: linear-gradient(135deg, #335E86, #4c3c30);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .client-card {
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .client-card:hover {
+            transform: translateX(10px);
+            border-left-color: #335E86;
+            box-shadow: 0 10px 30px rgba(51, 94, 134, 0.15) !important;
+        }
+
+        .client-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(51, 94, 134, 0.1), rgba(76, 60, 48, 0.1));
+            border-radius: 10px;
+            flex-shrink: 0;
+        }
+
+        .client-card:hover .client-icon {
+            background: linear-gradient(135deg, #335E86, #4c3c30);
+        }
+
+        .client-card:hover .client-icon i {
+            color: white !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+    <div class="container-fluid topbar d-none d-xl-block w-100">
+        <div class="row gx-0 align-items-center" style="height: 45px;">
+            <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="https://maps.google.com/?q=41/2+Hira+Kumbhar+Chawl+Kurla+West+Mumbai" target="_blank" class="text-muted me-4"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Kurla (W.), Mumbai - 70.</a>
+                    <a href="tel:+919970520206" class="text-muted me-4"><i class="fas fa-phone-alt text-secondary me-2"></i>+91 99705 20206</a>
+                    <a href="mailto:vmengineers2011@gmail.com" class="text-muted me-0"><i class="fas fa-envelope text-secondary me-2"></i>vmengineers2011@gmail.com</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a href="tel:+919970520206" class="text-muted me-3"><i class="fas fa-clock text-secondary me-2"></i>Mon - Sat 9:00 - 18:00, Sunday - CLOSED</a>
+                    <a href="https://facebook.com" target="_blank" class="btn btn-primary btn-square border border-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="btn btn-primary btn-square border border-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="btn btn-primary btn-square border border-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="btn btn-primary btn-square border border-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 px-4">
+            <div class="d-flex align-items-center justify-content-between w-100 d-lg-none">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/vm-logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+            <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                <img src="img/vm-logo.png" alt="Logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="services.html" class="nav-item nav-link">Services</a>
+                    <a href="projects.html" class="nav-item nav-link active">Projects</a>
+                    <a href="certificate.html" class="nav-item nav-link">Certificate</a>
+                    <a href="blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-flex align-items-center pt-2 pt-lg-0 ms-lg-2">
+                    <a href="tel:+919970520206" class="btn btn-secondary py-2 px-4 w-100">Get Free Quote</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Hero Section Start -->
+    <div class="container-fluid px-0" style="position:relative; height:450px; overflow:hidden;">
+        <img src="img/banner3.webp" alt="Our Projects" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; object-position:center; z-index:0;">
+        <div style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.65); z-index:1;"></div>
+        <div style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:2; display:flex; align-items:center; justify-content:center;">
+            <div class="container text-center">
+                <span class="carousel-tag wow fadeInDown" data-wow-delay="0.2s">VM Engineers & Contractors</span>
+                <h1 class="text-white mb-3 wow fadeInDown" data-wow-delay="0.4s" style="font-size:clamp(2rem,5vw,3.5rem); font-weight:700; text-shadow:0 2px 15px rgba(0,0,0,0.5);">Our Projects</h1>
+                <ol class="breadcrumb justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item active" style="color:rgba(255,255,255,0.7);">Projects</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Clients Section Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Esteemed Clients</h4>
+                <h1 class="display-5 mb-4">Trusted by Leading Organizations</h1>
+                <p class="text-muted">We are proud to have served prestigious institutions, hospitals, schools, and corporate clients across Mumbai and Maharashtra</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-industry fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">AARAV FRAGRANCE & FLAVERS PVT. LTD.</h6>
+                            <small class="text-muted">Thane</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-university fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">VJTI</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-school fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">JAMNABAI NARSEE INTERNATIONAL SCHOOL</h6>
+                            <small class="text-muted">Vile Parle</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-hospital fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">JASLOK HOSPITAL AND RESEARCH CENTER</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-school fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">PARAG ENGLISH SCHOOL</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-school fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">CHABILDAS HIGH SCHOOL</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-futbol fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">DREAM SPORTS FIELDS</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-hospital fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">CGS HOSPITAL</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.0s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-wine-bottle fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">COCA COLA BEVERAGES PVT LTD.</h6>
+                            <small class="text-muted">Wada</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.1s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-building fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">RAMKY INFRASTRUCTURE PVT. LTD.</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-building fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">BDS CONSTRUCTION PVT. LTD.</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.3s">
+                    <div class="client-card bg-white p-4 rounded shadow-sm h-100 d-flex align-items-center">
+                        <div class="client-icon me-3">
+                            <i class="fas fa-drafting-compass fa-2x text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0">SAMREKHA CONSULTANT PVT LTD.</h6>
+                            <small class="text-muted">Mumbai</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Clients Section End -->
+
+    <!-- Projects Section Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Experience</h4>
+                <h1 class="display-5 mb-4">Completed Projects Portfolio</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">AARAV FACTORY WORK PHASE 1 (R&D CENTER)</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> RENOVATION</p>
+                        <span class="project-cost">₹1.70 CR</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">AARAV FACTORY WORK PHASE 2 (PILOT PLANT)</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS</p>
+                        <span class="project-cost">₹1.53 CR</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">JAMNABAI NARSEE SCHOOL</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> RCC & STRUCTURAL REPAIRS</p>
+                        <span class="project-cost">₹70 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">JASLOK HOSPITAL</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> INTERIOR WORK</p>
+                        <span class="project-cost">₹25 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">MR. VAZE BUNGLOW</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> PLUMBING WORK</p>
+                        <span class="project-cost">₹1.00 CR</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">MR. KULKARNI HOME</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> INTERIOR WORK</p>
+                        <span class="project-cost">₹50 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">VISHWADHAN CO OF CHS</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> EXTERNAL PAINTING</p>
+                        <span class="project-cost">₹40 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">DR. BABASAHEB AMBEDKAR UNIVERSITY, MANDANGAD DAPOLI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> RCC WORK BANDHKAM, PLASTER (LABOUR WORK)</p>
+                        <span class="project-cost">₹1.27 CR</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.0s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">PARAG VIDYALAYA, KOKAN NAGAR, BHANDUP WEST</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> TERRACE WATERPROOFING & EXTERNAL PAINTING</p>
+                        <span class="project-cost">₹45 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.1s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">ANTARIKSHA CHS LTD. NEHARU NAGAR, KURLA EAST</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> PLINTH PROTECTION, TERRACE WATERPROOFING</p>
+                        <span class="project-cost">₹10 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.2s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">CGS HOSPITAL, SION KOLIWADA</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS</p>
+                        <span class="project-cost">₹20 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.3s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">CGS HOSPITAL, WORLI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, INTERIOR WORK</p>
+                        <span class="project-cost">₹18 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.4s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">CHABILDAS HIGHSCHOOL</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> WATERPROOFING WORK</p>
+                        <span class="project-cost">₹10 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.5s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">HILL VIEW SOCIETY, MALABAR HILL</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> INTERNAL REPAIR & TENNICE COURT WORK</p>
+                        <span class="project-cost">₹15 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.6s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">EIL CID SOCIETY, MALABAR HILL</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> PARKING AREA PCC WORK</p>
+                        <span class="project-cost">₹5 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.7s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">J. V. HIGH SCHOOL, ABYUDAY NAGAR, KALACHOWKI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> TERRACE WATERPROOFING</p>
+                        <span class="project-cost">₹25 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.8s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">AARAV FRAGRANCES & FLAVOURS PVT LTD. WADA</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> CIVIL & MAINTANANCE</p>
+                        <span class="project-cost">₹25 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.9s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">AARAV RESIDENTIAL BUILDING AT WADA</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> CIVIL & PAINTING WORK</p>
+                        <span class="project-cost">₹45 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.0s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">RAHUL SHELKE'S HOME INTERIOR</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> INTERIOR WORK</p>
+                        <span class="project-cost">₹45 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.1s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">PASAYDAN HOSPITAL AT GHATKOPAR</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> CIVIL WORK</p>
+                        <span class="project-cost">₹7 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.2s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">TAHNEE HIEGHT CHS. AT MALABAR HILL</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> CIVIL & REPAIR WORK</p>
+                        <span class="project-cost">₹10 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.3s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">ELEZABETH HOSPITAL AT NEPENCY ROAD</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> FOUNDATION WORK</p>
+                        <span class="project-cost">₹1 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.4s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">ENVIRON ENGINEERS AT POWAI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> FOUNDATION OF STP TANK</p>
+                        <span class="project-cost">₹3 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.5s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">AMOL KADAM'S BUNGLOW INTERIOR WORK</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> INTERIOR WORK</p>
+                        <span class="project-cost">₹25 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.6s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">MARKANDEYA CHSL, DHARAVI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, PAINTING, WATERPROOFING</p>
+                        <span class="project-cost">₹1.10 CR</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.7s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">MAYUR PARK CHSL, KOPARKHAIRNE</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> CIVIL, PAINTING, WATERPROOFING</p>
+                        <span class="project-cost">₹8 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.8s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">SAI ASHTVINAYAK CHSL, GHANSOLI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> PAINTING</p>
+                        <span class="project-cost">₹6.5 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="2.9s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">PREM MAYURSAN CHSL, BANDRA WEST</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, CIVIL, PAINTING, WATERPROOFING</p>
+                        <span class="project-cost">₹27 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.0s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">KARANI NIWAS, BYCULLA</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, CIVIL, PAINTING</p>
+                        <span class="project-cost">₹9 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.1s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">GHARONDA F TYPE CO OP CHS GHANSOLI NAVI MUMBAI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, PAINTING, ROOFING WORK</p>
+                        <span class="project-cost">₹1.73 CR</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.2s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">INDRAVATI HOSPITAL, AIROLI, NAVI MUMBAI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> PAINTING WORK</p>
+                        <span class="project-cost">₹11 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.3s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">VARDHAN ROYEL, MALAD (REHAB BUILDING)</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> PLUMBING WORK</p>
+                        <span class="project-cost">₹43 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.4s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">MICHROCHEM SILLIKER PVT. LTD. TURBHE MIDC</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, PAINTING</p>
+                        <span class="project-cost">₹30 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.5s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">ARIHANT RIDDHI SIDDHI CHSL, GHANSOLI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> ROOF WORK</p>
+                        <span class="project-cost">₹15.60 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.6s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">NATIONAL SAFETY COUNCILE, BELAPUR</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> 2ND FLOOR TOILET BLOCK RENOVATION, INTERNAL PAINTING</p>
+                        <span class="project-cost">₹18 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.7s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">SWARNA ANANT CHSL, KOPARKHAIRANE</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, CIVIL, PAINTING WORK</p>
+                        <span class="project-cost">₹28 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.8s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">RAMDEV ARCADE CHSL, SEC – 35, KAMOTHE</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, CIVIL, PAINTING WORK</p>
+                        <span class="project-cost">₹42 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="3.9s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100">
+                        <h5 class="text-primary mb-3">DAV PUBLIC SCHOOL, SEC – 10, AIROLI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, CIVIL, PAINTING WORK</p>
+                        <span class="project-cost">₹23 LAC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects Section End -->
+
+    <!-- Work in Hand Section Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">Work in Hand</h4>
+                <h1 class="display-5 mb-4">Ongoing Projects</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100 border-start border-5 border-success">
+                        <h5 class="text-primary mb-3">GOKUL BUILDING (SUYOG BUILDERS & DEVELOPERS)</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> INTERNAL PAINTING, EXTERNAL PAINTING</p>
+                        <span class="project-cost">₹1.22 CR</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100 border-start border-5 border-success">
+                        <h5 class="text-primary mb-3">ASHWINI HOSPITAL (CITI APARTMENT) SEC – 16, KOPARKHAIRANE</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> STRUCTURAL REPAIRS, CIVIL, PAINTING WORK</p>
+                        <span class="project-cost">₹14 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100 border-start border-5 border-success">
+                        <h5 class="text-primary mb-3">PANCHDEEP CHSL, SEC – 29 VASHI</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> COMPOUND WALL CONSTRUCTION WORK</p>
+                        <span class="project-cost">₹08 LAC</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="project-card bg-white p-4 rounded shadow-sm h-100 border-start border-5 border-success">
+                        <h5 class="text-primary mb-3">DAV SCHOOL, SEC – 15, KHARGHAR</h5>
+                        <p class="mb-2"><strong>Work Details:</strong> TOILET RENOVATION WORK, ETC.</p>
+                        <span class="project-cost">₹16.5 LAC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Work in Hand Section End -->
+
+    <!-- CTA Section Start -->
+    <div class="container-fluid py-5" style="background: linear-gradient(135deg, rgba(51, 94, 134, 0.95) 0%, rgba(76, 60, 48, 0.95) 100%), url('img/banner2.webp'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-8 wow fadeInLeft" data-wow-delay="0.2s">
+                    <h2 class="text-white mb-3">Have a Project in Mind?</h2>
+                    <p class="text-white mb-0" style="opacity: 0.9;">Let's discuss your requirements and turn your vision into reality. With 15+ years of experience and 44+ successful projects, we're ready to deliver excellence for your next project.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end wow fadeInRight" data-wow-delay="0.4s">
+                    <a href="contact.html" class="btn btn-light btn-lg py-3 px-5">
+                        <i class="fas fa-phone-alt me-2"></i>Get Free Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA Section End -->
+
+    <!-- FAQ Section Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary">FAQ</h4>
+                <h1 class="display-5 mb-4">Frequently Asked Questions</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="accordion" id="faqAccordion1">
+                        <div class="accordion-item border-0 mb-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    What types of projects do you handle?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion1">
+                                <div class="accordion-body">
+                                    We handle residential, commercial, and institutional projects including structural repairs, waterproofing, new construction, interior work, and complete building renovations.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    How do you ensure quality in your projects?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
+                                <div class="accordion-body">
+                                    We are ISO 9001:2015 certified and follow strict quality control measures. Our experienced team uses premium materials and proven techniques to ensure lasting results.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Can I see your previous work?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
+                                <div class="accordion-body">
+                                    Yes! We have completed 44+ major projects with prestigious clients like VJTI, Jaslok Hospital, Coca Cola, and many more. Check our portfolio above for detailed project information.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="accordion" id="faqAccordion2">
+                        <div class="accordion-item border-0 mb-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    What is your project completion rate?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                <div class="accordion-body">
+                                    We have a 100% project completion rate with timely delivery. Our portfolio includes projects ranging from ₹1 Lac to ₹1.73 Crore, all completed successfully.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    Do you work with large organizations?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                <div class="accordion-body">
+                                    Yes, we have worked with leading organizations including educational institutions, hospitals, factories, and corporate offices. Our client list includes VJTI Mumbai, Jaslok Hospital, and Coca Cola.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                    How can I get a quote for my project?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                <div class="accordion-body">
+                                    Simply contact us via phone or email. We'll schedule a free site visit, assess your requirements, and provide a detailed quotation within 24-48 hours.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ Section End -->
+
+                <!-- footer start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5 row-cols-1 row-cols-md-2 row-cols-xl-4">
+                <div class="col">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">About Us</h4>
+                        <p class="mb-3">VM Engineers &amp; Contractors is an ISO 9001:2015 certified civil firm established in 2009.</p>
+                        <p class="mb-3">We specialize in providing end-to-end solutions for structural repairs, waterproofing, and premium interior work with technical excellence.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Explore</h4>
+                        <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
+                        <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                        <a href="services.html"><i class="fas fa-angle-right me-2"></i> Services</a>
+                        <a href="projects.html"><i class="fas fa-angle-right me-2"></i> Projects</a>
+                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Our Services</h4>
+                        <a href="structural-repair-services-india.html"><i class="fas fa-angle-right me-2"></i>Structural Repairs</a>
+                        <a href="waterproofing-services-india.html"><i class="fas fa-angle-right me-2"></i>Waterproofing</a>
+                        <a href="new-construction-services-india.html"><i class="fas fa-angle-right me-2"></i>New Construction</a>
+                        <a href="interior.html"><i class="fas fa-angle-right me-2"></i>Interior Work</a>
+                        <a href="electrical.html"><i class="fas fa-angle-right me-2"></i>Electrical</a>
+                        <a href="plumbing-services-india.html"><i class="fas fa-angle-right me-2"></i>Plumbing</a>
+                        <a href="exterior-painting-services-india.html"><i class="fas fa-angle-right me-2"></i>Painting</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Contact Info</h4>
+                        <a href="https://maps.google.com/?q=41/2+Hira+Kumbhar+Chawl+Kurla+West+Mumbai" target="_blank"><i class="fas fa-map-marker-alt me-2"></i>41/2, Hira Kumbhar Chawl, C.S.T. Rd., Kurla (W.), Mumbai - 70.</a>
+                        <a href="mailto:vmengineers2011@gmail.com"><i class="fas fa-envelope me-2"></i>vmengineers2011@gmail.com</a>
+                        <a href="tel:+919970520206"><i class="fas fa-phone me-2"></i>+91 99705 20206</a>
+                        <a href="tel:+918657261906"><i class="fas fa-phone me-2"></i>+91 86572 61906</a>
+                        <div class="footer-btn d-flex align-items-center mt-2">
+                            <a class="btn btn-secondary btn-md-square me-2" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-2" href="https://instagram.com" target="_blank"><i class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-secondary btn-md-square me-0" href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body"><a href="index.html" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>2026 VM Engineers &amp; Contractors</a>, All right reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    Designed By <a class="border-bottom text-white" href="https://infotechmedia.in">Infotech Media</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>new WOW().init();</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us | RENAISSANCE-Fittings & Piping</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        :root {
+            --theme-orange: #ee5b1b;
+            --industrial-dark: #1a1c1e;
+            --field-bg: rgba(255, 255, 255, 0.05); /* Uniform field background */
+        }
+
+        body { font-family: 'Poppins', sans-serif; color: #333; }
+
+        /* =========================================
+           NAVBAR & DROPDOWN FIX (NO BLUE)
+        ========================================= */
+        .dropdown-item:hover, .dropdown-item:focus {
+            background-color: var(--theme-orange) !important;
+            color: #ffffff !important;
+        }
+        .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+            color: var(--theme-orange) !important;
+        }
+        .dropdown-menu { border: none; border-top: 3px solid var(--theme-orange); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+
+        /* =========================================
+           CENTERED HERO SECTION
+        ========================================= */
+        .page-header {
+            min-height: 500px;
+            background: linear-gradient(rgba(26, 28, 30, 0.9), rgba(26, 28, 30, 0.9)), url('img/homebg2.png') center center no-repeat;
+            background-size: cover;
+            display: flex; align-items: center; justify-content: center;
+            position: relative; border-bottom: 10px solid var(--theme-orange); text-align: center;
+        }
+        .header-title { font-size: 4rem; font-weight: 800; color: white; letter-spacing: -2px; margin-bottom: 25px; }
+        .header-desc { border-top: 4px solid var(--theme-orange); padding-top: 25px; max-width: 650px; margin: 0 auto 35px; font-size: 1.1rem; color: rgba(255,255,255,0.7); }
+        .breadcrumb-custom { display: inline-block; background: rgba(255,255,255,0.1); padding: 12px 30px; border-radius: 50px; backdrop-filter: blur(10px); }
+
+        /* =========================================
+           UNIFORM FORM STYLING (EQUAL COLORS)
+        ========================================= */
+        .form-section { background: var(--industrial-dark); padding: 60px; border-radius: 10px; color: white; }
+        
+        /* Making all inputs and select equal */
+        .form-control, .form-select {
+            background: var(--field-bg) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            color: white !important;
+            padding: 15px !important;
+            border-radius: 4px !important;
+            height: auto !important;
+            font-size: 1rem !important;
+        }
+
+        /* Equal Focus State for all */
+        .form-control:focus, .form-select:focus {
+            background: #000000 !important;
+            border-color: var(--theme-orange) !important;
+            box-shadow: none !important;
+            outline: 0 !important;
+        }
+
+        /* Equal Dropdown Background */
+        .form-select option {
+            background-color: var(--industrial-dark);
+            color: white;
+        }
+
+        .form-label { font-weight: 600; font-size: 0.9rem; color: #bbb; margin-bottom: 8px; display: block; }
+
+        .btn-inquiry {
+            background: var(--theme-orange);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 100%;
+            transition: 0.3s;
+            border-radius: 4px;
+        }
+        .btn-inquiry:hover { background: #d44d15; color: white; }
+
+        /* Cards & Map */
+        .contact-card { background: #fff; padding: 40px; border: 1px solid #eee; transition: 0.4s; text-align: center; height: 100%; border-radius: 8px; }
+        .contact-card:hover { border-color: var(--theme-orange); box-shadow: 0 15px 40px rgba(0,0,0,0.05); transform: translateY(-10px); }
+        .contact-icon { width: 70px; height: 70px; background: #fff4f0; color: var(--theme-orange); display: flex; align-items: center; justify-content: center; border-radius: 50%; margin: 0 auto 25px; font-size: 28px; }
+        .map-container { height: 100%; min-height: 500px; border-radius: 10px; overflow: hidden; border: 1px solid #eee; }
+
+        @media (max-width: 991px) {
+            .header-title { font-size: 2.8rem; }
+            .form-section { padding: 30px; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="ms-auto d-flex align-items-center">
+                <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>Office No. 67, Kika Street, Mumbai, Maharshtra-400004.</small>
+                <small class="ms-4"><i class="fa fa-envelope me-3"></i>sales@rfpindia.com</small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+91 9819010468 / 22 6749 6156</small>
+                <div class="ms-auto d-flex">
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="RENAISSANCE" style="height: 100px;">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                                <a href="tube-fitting.html" class="dropdown-item">Tube Fitting</a>
+                                <a href="duplex-tube-fittings.html" class="dropdown-item">Duplex Tube Fittings</a>
+                                <a href="forged-fittings.html" class="dropdown-item">Forged Fittings</a>
+                                <a href="air-header.html" class="dropdown-item">Air Header</a>
+                                <a href="condensate-pot.html" class="dropdown-item">Condensate Pot</a>
+                            </div>
+                        </div>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- Centered Hero -->
+    <div class="container-fluid page-header mb-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h1 class="header-title animated slideInDown">Contact <span style="color: var(--theme-orange);">Experts</span></h1>
+                    <p class="header-desc animated slideInUp">Assisting global projects with precision piping and instrumentation solutions since 2014.</p>
+                    <div class="breadcrumb-custom animated fadeIn shadow-sm">
+                        <a href="index.html" class="text-white-50 text-decoration-none small text-uppercase fw-bold">Home</a>
+                        <span class="mx-2 text-white-50">/</span>
+                        <span class="text-white small text-uppercase fw-bold">Contact</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Info Cards -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container py-4">
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa fa-map-marked-alt"></i></div>
+                        <h5 class="fw-bold mb-3">Global Headquarters</h5>
+                        <p class="text-muted mb-0">Office No. 67, Kika Street, Mumbai, Maharashtra 400004.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa fa-phone-volume"></i></div>
+                        <h5 class="fw-bold mb-3">Speak to Sales</h5>
+                        <p class="text-muted">+91 9819010468 / 22 6749 6156</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa fa-envelope-open-text"></i></div>
+                        <h5 class="fw-bold mb-3">Technical Inquiries</h5>
+                        <p class="text-muted">sales@rfpindia.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Consistent Inquiry Form Section -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="form-section shadow-lg">
+                        <h3 class="text-white mb-2">Request a Quote</h3>
+                        <p class="text-white-50 mb-5">Provide details for a technical quotation.</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="Enter email">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Product Interest</label>
+                                    <select class="form-select form-control">
+                                        <option selected disabled>Choose a product category...</option>
+                                        <option>Tube Fittings</option>
+                                        <option>Forged Fittings</option>
+                                        <option>Duplex Fittings</option>
+                                        <option>Instrumentation Valves</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Message / Specifications</label>
+                                    <textarea class="form-control" rows="5" placeholder="Dimensions, Grades, and Quantities..."></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button class="btn btn-inquiry">Send Inquiry Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="map-container shadow-sm">
+                        <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4466729802166!2d72.82432318571846!3d18.955870809914657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce3d6e21eabf%3A0x82d8eaf7014aba2b!2sRenaissance%20Fittings%20and%20Piping%20Inc!5e0!3m2!1sen!2sin!4v1774083222800!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+<div class="container-fluid bg-dark footer py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Our Office Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Our Office</h5>
+                
+                <!-- Address Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-map-marker-alt me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        Office No. 67, Kika Street, Mumbai, 400004.
+                    </div>
+                </div>
+
+                <!-- Phone Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-phone-alt me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        +91 9819010468 / 22 6749 6156
+                    </div>
+                </div>
+
+                <!-- Email Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-envelope me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        sales@rfpindia.com
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Quick Links</h5>
+                <a class="btn btn-link text-white" href="index.html">Home</a>
+                <a class="btn btn-link text-white" href="about.html">About Us</a>
+                <a class="btn btn-link text-white" href="contact.html">Contact Us</a>
+                <a class="btn btn-link text-white" href="blog.html">Blog</a>
+            </div>
+
+            <!-- Products Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Products</h5>
+                <a class="btn btn-link text-white" href="tube-fitting.html">Tube Fittings</a>
+                <a class="btn btn-link text-white" href="forged-fittings.html">Forged Fittings</a>
+                <a class="btn btn-link text-white" href="air-header.html">Air Header</a>
+                <a class="btn btn-link text-white" href="condensate-pot.html">Condensate Pot</a>
+            </div>
+
+            <!-- Business Hours Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Business Hours</h5>
+                <p class="mb-1 text-white">Monday - Saturday</p>
+                <p class="text-white">09:00 am - 07:00 pm</p>
+                <p class="mb-1 text-white">Sunday: <span style="color: #ee5b1b;">Closed</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+    <!-- Copyright -->
+    <div class="container-fluid text-body copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 text-white">
+                    &copy; <a class="fw-semi-bold text-white" href="#">RENAISSANCE - Fittings & Piping</a>, All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    Designed By <a class="fw-semi-bold text-white" href="https://infotechmedia.in/">Infotech Media</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

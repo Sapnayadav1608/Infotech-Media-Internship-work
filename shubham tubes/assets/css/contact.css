@@ -1,0 +1,161 @@
+/*--------------------------------------------------------------
+# Contact Page Hero
+--------------------------------------------------------------*/
+.about-hero {
+  min-height: 420px;
+  position: relative;
+  background: url('../img/hero.webp') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 140px 0 80px 0;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(164,64,53,0.82), rgba(26,14,12,0.9));
+}
+
+.about-hero h1 {
+  font-size: 46px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.about-hero h1 span { color: #d2ae6d; }
+
+.about-hero p {
+  font-size: 17px;
+  color: rgba(255,255,255,0.85);
+}
+
+.about-badge {
+  display: inline-block;
+  background: #a44035;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 2px;
+  margin-bottom: 18px;
+}
+
+/*--------------------------------------------------------------
+# Contact Info Cards
+--------------------------------------------------------------*/
+.contact-info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #fff8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 4px solid #d2ae6d;
+  transition: 0.3s;
+}
+
+.contact-info-card:hover {
+  border-left-color: #a44035;
+  box-shadow: 0 4px 15px rgba(164,64,53,0.1);
+}
+
+.contact-info-icon {
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(135deg, #a44035, #d2ae6d);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-info-icon i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contact-info-card h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #a44035;
+  margin-bottom: 4px;
+}
+
+.contact-info-card p {
+  font-size: 13px;
+  color: #6b4c47;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.contact-info-card a {
+  color: #6b4c47;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-info-card a:hover { color: #a44035; }
+
+/*--------------------------------------------------------------
+# WhatsApp Button
+--------------------------------------------------------------*/
+.whatsapp-contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25d366;
+  color: #ffffff;
+  padding: 14px 25px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+
+.whatsapp-contact-btn i { font-size: 22px; }
+
+.whatsapp-contact-btn:hover {
+  background: #1ebe5d;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/*--------------------------------------------------------------
+# Contact Form Box
+--------------------------------------------------------------*/
+.contact-form-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  border-top: 4px solid #a44035;
+}
+
+.contact-form-box h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #a44035;
+  margin-bottom: 8px;
+}
+
+.contact-form-box > p {
+  font-size: 14px;
+  color: #6b4c47;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 { font-size: 28px; }
+  .contact-form-box { padding: 25px; }
+}
+

@@ -1,0 +1,37 @@
+function rs_rtl_settings() {
+$('#rs-dir-toggler').on("change", function () {
+toggle_rtl();
+location.reload(true);
+});
+
+function rs_set_scheme(rs_dir) {
+sessionStorage.setItem('rs_dir', rs_dir);
+document.documentElement.setAttribute("dir", rs_dir);
+
+if (rs_dir === 'rtl') {
+$('body').addClass('rtl');
+} else {
+$('body').removeClass('rtl');
+}
+
+var list = $("[href='assets/vendor/css/bootstrap.min.css']");
+$(list).attr("href", rs_dir === 'rtl' ? "assets/vendor/css/bootstrap.rtl.min.css" :
+"assets/vendor/css/bootstrap.min.css");
+}
+
+function toggle_rtl() {
+if (sessionStorage.getItem('rs_dir') === 'rtl') {
+rs_set_scheme('ltr'); /* change ltr to rtl */
+} else {
+rs_set_scheme('rtl');
+}
+}
+
+function rs_init_dir() {
+var savedDir = sessionStorage.getItem('rs_dir');
+rs_set_scheme(savedDir || 'ltr'); /* change ltr to rtl */
+document.getElementById('rs-dir-toggler').checked = savedDir === 'rtl'; //This Switch
+}
+
+rs_init_dir();
+}

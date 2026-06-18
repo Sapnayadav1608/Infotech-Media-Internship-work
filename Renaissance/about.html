@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Us | RENAISSANCE-Fittings & Piping</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --theme-orange: #ee5b1b;
+            --industrial-dark: #1a1c1e;
+            --soft-bg: #f8f9fa;
+        }
+
+        body { font-family: 'Poppins', sans-serif; color: #333; }
+
+        /* =========================================
+           CENTERED HERO SECTION
+        ========================================= */
+        .page-header {
+            min-height: 550px;
+            background: linear-gradient(rgba(26, 28, 30, 0.85), rgba(26, 28, 30, 0.85)), url('img/homebg1.png') center center no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 10px solid var(--theme-orange);
+            text-align: center; /* Centers all text */
+        }
+
+        .header-tag {
+            background: var(--theme-orange);
+            color: white;
+            padding: 8px 20px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .header-title {
+            font-size: 4.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            letter-spacing: -2px;
+            color: white;
+        }
+
+        .header-desc {
+            border-top: 4px solid var(--theme-orange); /* Changed from border-left to border-top */
+            padding-top: 25px;
+            max-width: 650px;
+            margin: 0 auto 30px; /* Horizontal Centering */
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.7);
+        }
+
+        .breadcrumb-custom {
+            display: inline-block;
+            background: rgba(255,255,255,0.1);
+            padding: 12px 30px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+        }
+
+        @media (max-width: 991px) {
+            .header-title { font-size: 2.8rem; }
+            .page-header { min-height: 450px; }
+            .header-desc { font-size: 1rem; }
+        }
+
+        /* =========================================
+           REST OF THE PAGE
+        ========================================= */
+        .section-gap { padding: 100px 0; }
+        .about-img-wrap { position: relative; padding: 20px; }
+        .about-img-wrap img { border-radius: 5px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .exp-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            background: var(--theme-orange);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(238, 91, 27, 0.4);
+            border-radius: 5px;
+            z-index: 2;
+        }
+        .stats-banner { background: var(--industrial-dark); color: white; padding: 80px 0; }
+        .stat-card h2 { font-size: 3.5rem; font-weight: 800; color: var(--theme-orange); margin-bottom: 5px; }
+        .stat-card p { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.7; margin: 0; }
+        .modern-pillar { background: #fff; padding: 50px 40px; border: 1px solid #eee; transition: 0.4s; height: 100%; border-bottom: 5px solid transparent; }
+        .modern-pillar:hover { transform: translateY(-10px); border-bottom-color: var(--theme-orange); box-shadow: 0 15px 40px rgba(0,0,0,0.05); }
+        .modern-pillar i { font-size: 3rem; color: var(--theme-orange); margin-bottom: 25px; display: block; }
+        .quality-item { display: flex; align-items: center; margin-bottom: 15px; padding: 15px; background: var(--soft-bg); border-left: 5px solid var(--theme-orange); }
+        .quality-item i { color: var(--theme-orange); margin-right: 15px; }
+        .text-orange { color: var(--theme-orange) !important; }
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="ms-auto d-flex align-items-center">
+                <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>Office No. 67, Kika Street, Mumbai, Maharshtra-400004.</small>
+                <small class="ms-4"><i class="fa fa-envelope me-3"></i>sales@rfpindia.com</small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+91 9819010468 / 22 6749 6156</small>
+                <div class="ms-auto d-flex">
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-sm-square btn-light text-primary ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="RENAISSANCE" style="height: 100px;">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link active">About</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                                <a href="tube-fitting.html" class="dropdown-item">Tube Fitting</a>
+                                <a href="duplex-tube-fittings.html" class="dropdown-item">Duplex Tube Fittings</a>
+                                <a href="forged-fittings.html" class="dropdown-item">Forged Fittings</a>
+                                <a href="air-header.html" class="dropdown-item">Air Header</a>
+                                <a href="condensate-pot.html" class="dropdown-item">Condensate Pot</a>
+                            </div>
+                        </div>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Page Header (CENTERED HERO) -->
+    <div class="container-fluid page-header mb-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="header-tag animated slideInDown shadow-sm">ESTABLISHED 2014</div>
+                    <h1 class="header-title animated slideInDown">Engineering <br><span class="text-orange">Industrial Trust.</span></h1>
+                    <p class="header-desc animated slideInUp">
+                        Since 2014, Renaissance Fittings & Piping has been a global benchmark in high-pressure instrumentation solutions, ensuring absolute safety for critical industrial ecosystems.
+                    </p>
+                    <!-- Centered Breadcrumb -->
+                    <div class="breadcrumb-custom animated fadeIn shadow-sm mt-2">
+                        <a href="index.html" class="text-white-50 text-decoration-none small text-uppercase fw-bold">Home</a>
+                        <span class="mx-2 text-white-50">/</span>
+                        <span class="text-white small text-uppercase fw-bold">About Us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Intro Legacy Section -->
+    <div class="container-fluid section-gap">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="about-img-wrap">
+                        <img class="img-fluid" src="img/about.jpg" alt="Renaissance Factory">
+                        <div class="exp-badge">
+                            <h2 class="text-white mb-0 fw-bold">11+</h2>
+                            <small class="text-uppercase text-white-50">Years Legacy</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h2 class="display-5 fw-bold mb-4">Precision Engineered <span class="text-orange">Excellence</span></h2>
+                    <p class="mb-4 lead fw-bold text-dark">A decades-worth of commitment to zero-leakage performance has made us a globally preferred piping partner.</p>
+                    <p class="mb-4 text-muted">Founded in 2014 and headquartered in Mumbai, we specialize in manufacturing high-integrity instrumentation components. We serve over 45 countries, providing products that are 100% tested under extreme stress to exceed international standards like ASTM, ASME, and DIN.</p>
+                    
+                    <div class="row g-4 mt-3">
+                        <div class="col-md-6 border-start border-4 border-dark ps-4">
+                            <h5 class="fw-bold mb-1">ISO 9001:2015</h5>
+                            <small class="text-muted">Quality Management Certified</small>
+                        </div>
+                        <div class="col-md-6 border-start border-4 border-dark ps-4">
+                            <h5 class="fw-bold mb-1">TPI Ready</h5>
+                            <small class="text-muted">100% Material Traceability</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Banner -->
+    <div class="container-fluid stats-banner wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-6 col-md-3"><div class="stat-card"><h2>500+</h2><p>Enterprise Clients</p></div></div>
+                <div class="col-6 col-md-3"><div class="stat-card"><h2>1200+</h2><p>Product SKU's</p></div></div>
+                <div class="col-6 col-md-3"><div class="stat-card"><h2>45+</h2><p>Global Nations</p></div></div>
+                <div class="col-6 col-md-3"><div class="stat-card"><h2>100%</h2><p>Quality Success</p></div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pillars Section -->
+    <div class="container-fluid section-gap bg-light">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-orange text-uppercase fw-bold mb-2">Our Philosophy</h6>
+                <h2 class="display-6 fw-bold text-uppercase">Core Business Pillars</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="modern-pillar text-center">
+                        <i class="fa fa-bullseye"></i>
+                        <h4 class="fw-bold mb-3">Our Mission</h4>
+                        <p class="text-muted mb-0">To deliver high-integrity piping components that prioritize absolute industrial safety and durability globally.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="modern-pillar text-center">
+                        <i class="fa fa-eye"></i>
+                        <h4 class="fw-bold mb-3">Our Vision</h4>
+                        <p class="text-muted mb-0">To become the world's most innovative instrumentation fitting brand, defined by material integrity and ethical values.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="modern-pillar text-center">
+                        <i class="fa fa-award"></i>
+                        <h4 class="fw-bold mb-3">Core Values</h4>
+                        <p class="text-muted mb-0">Radical transparency, uncompromising quality control, and a relentless focus on customer project success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Footer Start -->
+<div class="container-fluid bg-dark footer py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Our Office Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Our Office</h5>
+                
+                <!-- Address Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-map-marker-alt me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        Office No. 67, Kika Street, Mumbai, 400004.
+                    </div>
+                </div>
+
+                <!-- Phone Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-phone-alt me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        +91 9819010468 / 22 6749 6156
+                    </div>
+                </div>
+
+                <!-- Email Detail -->
+                <div class="d-flex mb-3">
+                    <div class="flex-shrink-0">
+                        <i class="fa fa-envelope me-3" style="color: #ee5b1b;"></i>
+                    </div>
+                    <div class="text-white">
+                        sales@rfpindia.com
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Quick Links</h5>
+                <a class="btn btn-link text-white" href="index.html">Home</a>
+                <a class="btn btn-link text-white" href="about.html">About Us</a>
+                <a class="btn btn-link text-white" href="contact.html">Contact Us</a>
+                <a class="btn btn-link text-white" href="blog.html">Blog</a>
+            </div>
+
+            <!-- Products Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Products</h5>
+                <a class="btn btn-link text-white" href="tube-fitting.html">Tube Fittings</a>
+                <a class="btn btn-link text-white" href="forged-fittings.html">Forged Fittings</a>
+                <a class="btn btn-link text-white" href="air-header.html">Air Header</a>
+                <a class="btn btn-link text-white" href="condensate-pot.html">Condensate Pot</a>
+            </div>
+
+            <!-- Business Hours Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-white mb-4">Business Hours</h5>
+                <p class="mb-1 text-white">Monday - Saturday</p>
+                <p class="text-white">09:00 am - 07:00 pm</p>
+                <p class="mb-1 text-white">Sunday: <span style="color: #ee5b1b;">Closed</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+    <!-- Copyright -->
+    <div class="container-fluid text-body copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 text-white">
+                    &copy; <a class="fw-semi-bold text-white" href="#">RENAISSANCE - Fittings & Piping</a>, All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    Designed By <a class="fw-semi-bold text-white" href="https://infotechmedia.in/">Infotech Media</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
