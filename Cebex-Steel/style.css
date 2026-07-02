@@ -1212,6 +1212,9 @@ body {
 
 .about-images {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-grid {
@@ -1224,7 +1227,6 @@ body {
 .image-box {
     position: relative;
     border-radius: 20px;
-    overflow: hidden;
     box-shadow: 0 15px 40px rgba(30, 58, 95, 0.12);
     transition: all 0.4s ease;
 }
@@ -1240,15 +1242,13 @@ body {
 }
 
 .image-box.medium {
-    grid-column: 1;
-    grid-row: 2;
     position: relative;
+    width: 100%;
 }
 
 .image-box img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
     display: block;
     transition: transform 0.6s ease;
 }
@@ -1269,12 +1269,10 @@ body {
     opacity: 1;
 }
 
-.image-box.large img {
-    height: 500px;
-}
-
 .image-box.medium img {
-    height: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
 
 .customer-badge {
@@ -1849,15 +1847,6 @@ body {
     }
     
     .image-box.medium {
-        grid-column: 1;
-        grid-row: 2;
-    }
-    
-    .image-box.large img {
-        height: 350px;
-    }
-    
-    .image-box.medium img {
         height: 300px;
     }
     
