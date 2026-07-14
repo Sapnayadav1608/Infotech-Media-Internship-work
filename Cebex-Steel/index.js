@@ -4,9 +4,15 @@ let current = 0;
 let interval = setInterval(nextSlide, 5000);
 
 function showSlide(index) {
+    // Remove active from current
     slides[current].classList.remove('active');
     dots[current].classList.remove('active');
+
     current = index;
+
+    // Force reflow to restart CSS animations
+    slides[current].classList.remove('active');
+    void slides[current].offsetWidth;
     slides[current].classList.add('active');
     dots[current].classList.add('active');
 }
