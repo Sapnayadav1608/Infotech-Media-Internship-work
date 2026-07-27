@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Steel Turned Parts | JM Graphite & Carbon (India) LLP";
+$meta_description = "Precision Steel Turned Parts for automotive and industrial use. High-quality steel turning from JM Graphite.";
+$meta_keywords = "steel turned parts, precision steel parts, automotive parts, turning components";
+include 'header.php';
+?>
 
-<meta name="description" content="Precision Steel Turned Parts for automotive and industrial use. High-quality steel turning from JM Graphite.">
-<meta name="keywords" content="steel turned parts, precision steel parts, automotive parts, turning components">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

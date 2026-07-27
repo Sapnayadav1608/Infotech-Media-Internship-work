@@ -1,9 +1,11 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Gland Packing Rings for Turbine Manufacturer in India";
+$meta_description = "Precision carbon gland packing rings for turbines and rotating equipment, providing dependable sealing under high-pressure and high-temperature conditions.";
+$meta_keywords = "carbon gland packing ring, packing rings, steam turbine seals, pump seals, graphite carbon";
+include 'header.php';
+?>
 
 <link rel="stylesheet" href="product-animations.css">
-
-<meta name="description" content="Carbon Gland Packing Rings for steam turbines, water pumps, and rotating equipment. High-quality graphite carbon sealing solutions from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon gland packing ring, packing rings, steam turbine seals, pump seals, graphite carbon">
 
 <!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">

@@ -1,13 +1,16 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Segment Rings for Turbine Machines Manufacturer in India";
+$meta_description = "High-quality carbon segment rings for turbine machines manufactured for reliable sealing, reduced leakage and long-lasting industrial performance.";
+$meta_keywords = "carbon gland packing ring, segment ring, turbine seals, packing rings, industrial sealing";
+include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carbon Gland Packing & Segment Ring | JM Graphite</title>
-    <meta name="description" content="Carbon Gland Packing & Segment Rings for all Turbine Machines. Industrial sealing solutions for Cement, Sugar Mills, Fertilizer industries from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon gland packing ring, segment ring, turbine seals, packing rings, industrial sealing">
-<link rel="stylesheet" href="css/product-animations.css">
+    <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">
 <link rel="stylesheet" href="css/image-modal.css">

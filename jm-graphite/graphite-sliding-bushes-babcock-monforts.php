@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Sliding Bushes for Babcock & Monforts M/C | JM Graphite & Carbon (India) LLP";
+$meta_description = "Sliding bushes for Babcock and Monforts machinery. High-precision graphite components for textile equipment from JM Graphite & Carbon.";
+$meta_keywords = "sliding bushes, babcock, monforts, graphite components, textile machinery";
+include 'header.php';
+?>
 
-<meta name="description" content="Sliding bushes for Babcock and Monforts machinery. High-precision graphite components for textile equipment from JM Graphite & Carbon.">
-<meta name="keywords" content="sliding bushes, babcock, monforts, graphite components, textile machinery">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

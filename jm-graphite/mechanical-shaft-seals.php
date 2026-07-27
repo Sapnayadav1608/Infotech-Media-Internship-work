@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Mechanical Shaft Seals | JM Graphite & Carbon (India) LLP";
+$meta_description = "Advanced mechanical shaft seals for pumps, compressors, and rotating equipment. Superior performance from JM Graphite & Carbon.";
+$meta_keywords = "mechanical shaft seals, shaft seals, pump seals, compressor seals, mechanical seals";
+include 'header.php';
+?>
 
-<meta name="description" content="Advanced mechanical shaft seals for pumps, compressors, and rotating equipment. Superior performance from JM Graphite & Carbon.">
-<meta name="keywords" content="mechanical shaft seals, shaft seals, pump seals, compressor seals, mechanical seals">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

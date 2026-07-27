@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Turning Components Manufacturer in India";
+$meta_description = "Custom turning components manufactured with high precision for automotive, engineering, industrial and OEM applications.";
+$meta_keywords = "CNC turned components, CNC turning, machined parts, automotive components";
+include 'header.php';
+?>
 
-<meta name="description" content="CNC Turned Components Machining for automotive and industrial parts. Advanced CNC turning from JM Graphite.">
-<meta name="keywords" content="CNC turned components, CNC turning, machined parts, automotive components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

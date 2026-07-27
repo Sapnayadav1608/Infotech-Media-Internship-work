@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Lungs for Famatex Machines Manufacturer in India";
+$meta_description = "Precision graphite lungs for Famatex textile machines manufactured for smooth movement, wear resistance and dependable performance.";
+$meta_keywords = "graphite lungs, lock pins, famatex stenter, textile machinery, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite Lungs & Lock Pins for Famatex Stenter Machine. Specialized graphite components for textile machinery from JM Graphite.">
-<meta name="keywords" content="graphite lungs, lock pins, famatex stenter, textile machinery, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

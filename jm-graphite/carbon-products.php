@@ -1,7 +1,9 @@
-<?php include 'header.php'; ?>
-
-<meta name="description" content="Complete range of Carbon Technology products including brushes, sealing rings, vanes, and more from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon products, carbon brushes, carbon sealing rings, carbon vanes, carbon technology">
+<?php
+$page_title = "Carbon Products Range | JM Graphite & Carbon";
+$meta_description = "Complete range of industrial carbon products including brushes, sealing rings, vanes, and gland packing from JM Graphite & Carbon.";
+$meta_keywords = "Carbon Products, Industrial Carbon, Carbon Sealing Rings, Carbon Vanes";
+include 'header.php';
+?>
 
 <!-- HERO SECTION -->
 <div class="container-fluid bg-breadcrumb" style="background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('img/aboutbg.png'); background-size: cover; background-position: center; min-height: 300px; display:flex; align-items:center;">

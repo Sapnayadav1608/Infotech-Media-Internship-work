@@ -1,9 +1,12 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Rings for Submersible Water Pumps Manufacturer";
+$meta_description = "Durable carbon rings for submersible water pumps offering excellent wear resistance, dimensional accuracy and long service life.";
+$meta_keywords = "carbon ring, submersible pump, water pump, carbon sealing, pump components";
+include 'header.php';
+?>
 
 <div class="carbon-ring-submersible-water-pump">
 
-<meta name="description" content="Carbon rings for submersible water pumps. High-quality carbon sealing components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon ring, submersible pump, water pump, carbon sealing, pump components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

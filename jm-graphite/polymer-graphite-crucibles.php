@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Polymer Graphite Crucibles | JM Graphite & Carbon (India) LLP";
+$meta_description = "Polymer Graphite Crucibles for high-temperature metal melting and casting. Premium graphite components from JM Graphite & Carbon.";
+$meta_keywords = "graphite crucibles, metal melting, casting crucibles, high temperature graphite, polymer graphite";
+include 'header.php';
+?>
 
-<meta name="description" content="Polymer Graphite Crucibles for high-temperature metal melting and casting. Premium graphite components from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite crucibles, metal melting, casting crucibles, high temperature graphite, polymer graphite">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

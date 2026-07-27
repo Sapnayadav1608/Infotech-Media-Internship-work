@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Crucible Manufacturer in India";
+$meta_description = "High-quality graphite crucibles for metal melting and foundry applications, offering excellent thermal conductivity and resistance to thermal shock.";
+$meta_keywords = "graphite crucible, crucibles, metal melting, high-temperature, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite crucibles for high-temperature applications. High-precision components for metal melting and casting from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite crucible, crucibles, metal melting, high-temperature, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

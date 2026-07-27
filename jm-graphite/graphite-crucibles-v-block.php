@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Crucibles & V Block | JM Graphite & Carbon (India) LLP";
+$meta_description = "Graphite Crucibles & V Block for diamond industries. High-temperature graphite components from JM Graphite.";
+$meta_keywords = "graphite crucibles, v block, diamond industry, high temperature graphite";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite Crucibles & V Block for diamond industries. High-temperature graphite components from JM Graphite.">
-<meta name="keywords" content="graphite crucibles, v block, diamond industry, high temperature graphite">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

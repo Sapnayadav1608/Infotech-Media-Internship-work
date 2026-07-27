@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Brushes for Power Tools Manufacturer";
+$meta_description = "Durable carbon brushes for power tools designed to deliver reliable electrical contact, smooth operation and extended equipment life.";
+$meta_keywords = "carbon brush, power tools, welding generator brush, motor brush, alternator brush, DC motor brush, graphite brush";
+include 'header.php';
+?>
 
-<meta name="description" content="Power tools carbon brushes including welding generator brushes, motor brushes, alternator brushes, and DC motor brushes from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon brush, power tools, welding generator brush, motor brush, alternator brush, DC motor brush, graphite brush">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

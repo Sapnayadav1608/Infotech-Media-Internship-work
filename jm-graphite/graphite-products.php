@@ -1,7 +1,9 @@
-<?php include 'header.php'; ?>
-
-<meta name="description" content="Complete range of Graphite Technology products including blocks, rods, rails, crucibles, and more from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite products, graphite blocks, graphite rails, graphite crucibles, graphite technology">
+<?php
+$page_title = "Graphite Products Range | JM Graphite & Carbon";
+$meta_description = "Complete range of graphite technology products including blocks, rods, rails, crucibles, and EDM electrodes from JM Graphite & Carbon.";
+$meta_keywords = "Graphite Products, Graphite Blocks, Graphite Rods, Graphite Rails";
+include 'header.php';
+?>
 
 <!-- HERO SECTION -->
 <div class="container-fluid bg-breadcrumb" style="background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('img/aboutbg.png'); background-size: cover; background-position: center; min-height: 300px; display:flex; align-items:center;">

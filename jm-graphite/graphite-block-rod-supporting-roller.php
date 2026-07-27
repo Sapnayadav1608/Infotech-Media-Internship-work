@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Blocks for Supporting Rollers Manufacturer in India";
+$meta_description = "Discover precision graphite blocks for supporting rollers designed for rotary kilns and industrial equipment with superior wear resistance and thermal stability.";
+$meta_keywords = "graphite blocks, graphite rods, supporting roller machine, industrial lubrication, kiln plant graphite";
+include 'header.php';
+?>
 
-<meta name="description" content="Premium Graphite blocks and rods for lubrication in supporting roller machines. High-temperature industrial graphite solutions from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite blocks, graphite rods, supporting roller machine, industrial lubrication, kiln plant graphite">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

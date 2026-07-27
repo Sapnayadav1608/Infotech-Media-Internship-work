@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Kiln Inlet & Outlet Seal Manufacturer in India";
+$meta_description = "JM Graphite manufactures high-performance graphite kiln inlet and outlet seals engineered for rotary kilns, delivering excellent sealing, heat resistance and long service life.";
+$meta_keywords = "graphite seals, inlet seals, outlet seals, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="High-quality graphite inlet and outlet seals for industrial applications. Precision-engineered components from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite seals, inlet seals, outlet seals, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

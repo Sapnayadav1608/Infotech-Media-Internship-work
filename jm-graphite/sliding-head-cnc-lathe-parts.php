@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Sliding Head CNC Multi-Tasking Lathe Parts | JM Graphite & Carbon (India) LLP";
+$meta_description = "Sliding Head CNC Multi-Tasking Lathe Parts - Advanced CNC turning from JM Graphite. Stainless steel components 1-12mm thickness.";
+$meta_keywords = "sliding head CNC lathe parts, multi-tasking lathe, CNC turning, stainless steel components";
+include 'header.php';
+?>
 
-<meta name="description" content="Sliding Head CNC Multi-Tasking Lathe Parts - Advanced CNC turning from JM Graphite. Stainless steel components 1-12mm thickness.">
-<meta name="keywords" content="sliding head CNC lathe parts, multi-tasking lathe, CNC turning, stainless steel components">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

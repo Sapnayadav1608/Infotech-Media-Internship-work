@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Rings for Paper Mills Manufacturer in India";
+$meta_description = "Precision carbon rings designed for paper mill machinery, providing reliable sealing, reduced maintenance and extended equipment life.";
+$meta_keywords = "carbon ring, paper mill, paper industry, carbon sealing, mill equipment";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon rings for paper mill equipment. High-quality carbon sealing components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon ring, paper mill, paper industry, carbon sealing, mill equipment">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

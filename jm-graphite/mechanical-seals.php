@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Mechanical Seals & Sealing Solutions | JM Graphite & Carbon";
+$meta_description = "Advanced mechanical shaft seals, double mechanical seals, plain shaft seals, and pumping screw seals for pumps & rotating equipment.";
+$meta_keywords = "Mechanical Seals, Shaft Seals, Double Mechanical Seals, Pump Seals";
+include 'header.php';
+?>
 
 <link rel="stylesheet" href="product-animations.css">
 

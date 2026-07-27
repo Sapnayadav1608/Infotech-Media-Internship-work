@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Steam Joint Rings Manufacturer in India";
+$meta_description = "Precision carbon steam joint rings manufactured for steam rotary joints, ensuring reliable sealing, reduced leakage and extended service life.";
+$meta_keywords = "carbon steam joint ring, steam seal, carbon ring, industrial sealing";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon steam joint rings for industrial applications. High-quality carbon components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon steam joint ring, steam seal, carbon ring, industrial sealing">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

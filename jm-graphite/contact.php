@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Contact Us | JM Graphite & Carbon (India) LLP";
+$meta_description = "Get in touch with JM Graphite & Carbon (India) LLP for high-quality industrial carbon & graphite components. Request a quote or inquiry today.";
+$meta_keywords = "Contact JM Graphite, Carbon Supplier Inquiry, Graphite Products Quote";
+include 'header.php';
+?>
 
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
@@ -196,7 +201,7 @@ align-items:center;">
                     Send us a Message
                 </h2>
 
-                <form method="POST" action="">
+                <form method="POST" action="send-mail.php">
 
                     <div class="mb-3">
                         <label for="name" class="form-label fw-bold">Full Name</label>
@@ -276,7 +281,9 @@ align-items:center;">
                         <div>
                             <h5 class="fw-bold mb-2">Email</h5>
                             <p class="text-muted mb-0">
-                                <a href="mailto:jmgraphite@gmail.com" class="text-decoration-none text-muted">jmgraphite@gmail.com</a>
+                                <a href="mailto:jmgraphite@gmail.com" class="text-decoration-none text-muted">carbonhome@hotmail.com</a><br>
+                                <a href="  sales@jmgraphite.in" class="text-decoration-none text-muted">sales@jmgraphite.in</a><br>
+                                
                             </p>
                         </div>
                     </div>
@@ -288,8 +295,7 @@ align-items:center;">
                         <div>
                             <h5 class="fw-bold mb-2">Business Hours</h5>
                             <p class="text-muted mb-0">
-                                Monday - Friday: 9:00 AM - 6:00 PM<br>
-                                Saturday: 10:00 AM - 4:00 PM<br>
+                                Monday - Saturday: 9:00 AM - 6:00 PM<br>
                                 Sunday: Closed
                             </p>
                         </div>

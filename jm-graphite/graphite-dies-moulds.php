@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Dies and Moulds | JM Graphite & Carbon (India) LLP";
+$meta_description = "Premium graphite dies and moulds for casting and manufacturing. High-precision components from JM Graphite & Carbon.";
+$meta_keywords = "graphite dies, graphite moulds, casting dies, manufacturing moulds";
+include 'header.php';
+?>
 
-<meta name="description" content="Premium graphite dies and moulds for casting and manufacturing. High-precision components from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite dies, graphite moulds, casting dies, manufacturing moulds">
 <link rel="stylesheet" href="css/product-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

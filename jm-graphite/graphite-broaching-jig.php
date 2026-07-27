@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Broaching Jig Manufacturer in India";
+$meta_description = "Precision graphite broaching jigs engineered for accurate machining, improved productivity and consistent performance in industrial operations.";
+$meta_keywords = "graphite broaching jig, broaching tool, graphite jig, precision machining, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite broaching jigs for precision machining. High-quality graphite components for broaching operations from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite broaching jig, broaching tool, graphite jig, precision machining, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

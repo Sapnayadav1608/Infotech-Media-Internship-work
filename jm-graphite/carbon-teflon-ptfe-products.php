@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "PTFE Products Manufacturer in India";
+$meta_description = "Explore premium PTFE and carbon-filled PTFE products manufactured for sealing, insulation and engineering applications requiring excellent chemical resistance.";
+$meta_keywords = "carbon teflon, PTFE products, carbon PTFE, polymer products";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon Teflon PTFE products for industrial applications. High-quality polymer products from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon teflon, PTFE products, carbon PTFE, polymer products">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

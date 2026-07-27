@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Lungs Lock Pins | JM Graphite & Carbon (India) LLP";
+$meta_description = "Precision graphite lungs lock pins for industrial machinery. Superior performance from JM Graphite & Carbon.";
+$meta_keywords = "graphite lungs lock pins, lock pins, graphite components, industrial pins";
+include 'header.php';
+?>
 
-<meta name="description" content="Precision graphite lungs lock pins for industrial machinery. Superior performance from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite lungs lock pins, lock pins, graphite components, industrial pins">
 <link rel="stylesheet" href="css/product-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

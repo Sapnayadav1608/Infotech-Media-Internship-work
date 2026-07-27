@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Brushes for DC Motors Manufacturer in India";
+$meta_description = "Durable carbon brushes for DC motors ensuring efficient current transfer, reduced sparking and longer motor service life.";
+$meta_keywords = "DC motor brush, carbon brush, AC brush, electro graphite brush, motor brush";
+include 'header.php';
+?>
 
-<meta name="description" content="DC motor carbon brushes including AC carbon brushes and electro graphite carbon brushes from JM Graphite & Carbon.">
-<meta name="keywords" content="DC motor brush, carbon brush, AC brush, electro graphite brush, motor brush">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

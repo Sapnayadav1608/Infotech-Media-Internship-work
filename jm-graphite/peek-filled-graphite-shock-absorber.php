@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "PEEK Filled Graphite Shock Absorber | JM Graphite & Carbon (India) LLP";
+$meta_description = "PEEK filled graphite shock absorber for Montfort's stenter machine. High-quality PEEK products from JM Graphite & Carbon.";
+$meta_keywords = "PEEK shock absorber, graphite shock absorber, Montfort stenter machine, PEEK components";
+include 'header.php';
+?>
 
-<meta name="description" content="PEEK filled graphite shock absorber for Montfort's stenter machine. High-quality PEEK products from JM Graphite & Carbon.">
-<meta name="keywords" content="PEEK shock absorber, graphite shock absorber, Montfort stenter machine, PEEK components">
 <link rel="stylesheet" href="css/product-animations.css">
 
 <script type="application/ld+json">

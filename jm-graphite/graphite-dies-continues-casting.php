@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Dies for Continuous Casting Manufacturer in India";
+$meta_description = "Precision graphite dies for continuous casting applications delivering superior thermal stability, accuracy and extended production life.";
+$meta_keywords = "graphite dies, continuous casting, casting dies, metal casting, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite dies for continuous casting. High-precision components for metal casting from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite dies, continuous casting, casting dies, metal casting, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

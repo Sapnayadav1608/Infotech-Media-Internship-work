@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Technology Products | JM Graphite & Carbon";
+$meta_description = "Explore high-performance carbon products including carbon gland packing rings, carbon vanes, carbon bush bearings, and slip ring carbon brushes.";
+$meta_keywords = "Carbon Technology, Carbon Products, Carbon Vanes, Carbon Bush Bearings";
+include 'header.php';
+?>
 
 <link rel="stylesheet" href="product-animations.css">
 

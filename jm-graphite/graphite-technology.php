@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Technology Products | JM Graphite & Carbon";
+$meta_description = "Discover premium graphite technology products including graphite rails, graphite crucibles, graphite EDM electrodes, and sliding parts.";
+$meta_keywords = "Graphite Technology, Graphite Products, Graphite Crucibles, Graphite Rails";
+include 'header.php';
+?>
 
 <link rel="stylesheet" href="product-animations.css">
 

@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Sliding Parts for Babcock Machines India";
+$meta_description = "High-quality graphite sliding parts for Babcock textile machines engineered for low friction, durability and consistent machine performance.";
+$meta_keywords = "sliding parts, babcock machine, graphite components, textile machinery";
+include 'header.php';
+?>
 
-<meta name="description" content="Sliding parts for Babcock machines. High-precision graphite components for textile equipment from JM Graphite & Carbon.">
-<meta name="keywords" content="sliding parts, babcock machine, graphite components, textile machinery">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

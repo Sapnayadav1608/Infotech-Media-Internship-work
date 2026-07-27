@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Bushes for Pumps Manufacturer in India";
+$meta_description = "Precision carbon bushes for pumps designed to minimise wear, reduce friction and improve pump efficiency in industrial applications.";
+$meta_keywords = "carbon bush, pump bearing, graphite bearing, pump components, graphite sealing";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon bush bearings for pumps. High-precision graphite components for pump applications from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon bush, pump bearing, graphite bearing, pump components, graphite sealing">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

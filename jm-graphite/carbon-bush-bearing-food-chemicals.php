@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Bush Bearings for Food & Chemical Industry";
+$meta_description = "Carbon bush bearings designed for food processing and chemical industries, offering self-lubrication, corrosion resistance and long service life.";
+$meta_keywords = "carbon bush, bearing, food industry, chemical industry, textile industry, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon bush bearings for food, chemicals, textile and all industries. High-precision graphite components for multi-industry applications from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon bush, bearing, food industry, chemical industry, textile industry, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

@@ -1,10 +1,49 @@
+<?php
+// Default title, description, and keywords fallback
+if (!isset($page_title) || empty($page_title)) {
+    $current_page_name = basename($_SERVER['PHP_SELF'], '.php');
+    if ($current_page_name == 'index' || empty($current_page_name)) {
+        $page_title = "JM Graphite & Carbon (India) LLP | Carbon & Graphite Solutions";
+    } else {
+        $formatted_name = ucwords(str_replace(['-', '_'], ' ', $current_page_name));
+        $page_title = $formatted_name . " | JM Graphite & Carbon (India) LLP";
+    }
+}
+
+if (!isset($meta_description) || empty($meta_description)) {
+    $meta_description = "JM Graphite & Carbon (India) LLP is a trusted manufacturer of high-quality Carbon Gland Packing Rings, Carbon Vanes, Graphite Rails, Graphite Crucibles, Mechanical Shaft Seals & CNC Precision Components since 1974.";
+}
+
+if (!isset($meta_keywords)) {
+    $meta_keywords = "";
+}
+
+if (!isset($canonical_url) || empty($canonical_url)) {
+    $current_page_file = basename($_SERVER['PHP_SELF']);
+    if ($current_page_file == 'index.php' || empty($current_page_file)) {
+        $canonical_url = "https://jmgraphite.in/";
+    } else {
+        $canonical_url = "https://jmgraphite.in/" . $current_page_file;
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>JM Graphite & Carbon (India) LLP</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title><?php echo htmlspecialchars($page_title); ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($meta_description); ?>">
+    <?php if (!empty($meta_keywords)): ?>
+    <meta name="keywords" content="<?php echo htmlspecialchars($meta_keywords); ?>">
+    <?php endif; ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo1.png" type="image/png">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/logo1.png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -411,6 +450,3 @@
             }, 100);
         });
     </script>
-</body>
-
-</html>

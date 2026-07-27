@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Latest Blogs & Technical Articles | JM Graphite & Carbon";
+$meta_description = "Read technical insights, industry updates, and product guides on carbon brushes, mechanical seals, graphite crucibles, and CNC precision components.";
+$meta_keywords = "JM Graphite Blog, Carbon Technology Articles, Industrial Graphite Insights";
+include 'header.php';
+?>
 
 <link rel="stylesheet" href="css/enhanced-animations.css">
 

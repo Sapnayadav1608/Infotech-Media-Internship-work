@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Rails for Monforts Stenter | JM Graphite & Carbon (India) LLP";
+$meta_description = "Graphite Rails for Monforts Stenter machines. High-quality graphite components for textile finishing equipment from JM Graphite & Carbon.";
+$meta_keywords = "graphite rails, monforts stenter, stenter machine, textile finishing, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite Rails for Monforts Stenter machines. High-quality graphite components for textile finishing equipment from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite rails, monforts stenter, stenter machine, textile finishing, graphite components">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

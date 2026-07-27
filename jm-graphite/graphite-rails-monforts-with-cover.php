@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Rails for Monforts Stenter with Cover";
+$meta_description = "High-performance graphite rails with cover for Monforts stenter machines, ensuring smooth movement, reduced wear and reliable production.";
+$meta_keywords = "graphite rails, monforts stenter, textile equipment, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Premium graphite slide rails for Monforts stenter machines with cover. High-quality components for textile industry from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite rails, monforts stenter, textile equipment, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

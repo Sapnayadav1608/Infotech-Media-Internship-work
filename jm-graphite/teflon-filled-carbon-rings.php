@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Teflon Filled Carbon Sealing Rings | JM Graphite & Carbon (India) LLP";
+$meta_description = "Teflon Filled Carbon Sealing Rings for industrial sealing applications. Low-friction, chemical-resistant rotary rings from JM Graphite.";
+$meta_keywords = "teflon filled carbon rings, sealing rings, rotary seals, carbon seals, mechanical seals";
+include 'header.php';
+?>
 
-<meta name="description" content="Teflon Filled Carbon Sealing Rings for industrial sealing applications. Low-friction, chemical-resistant rotary rings from JM Graphite.">
-<meta name="keywords" content="teflon filled carbon rings, sealing rings, rotary seals, carbon seals, mechanical seals">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

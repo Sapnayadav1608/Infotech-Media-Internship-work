@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Brush Bearing / Holder / Spring Job | JM Graphite & Carbon (India) LLP";
+$meta_description = "Carbon Brush Bearing, Holder, and Spring Job components for motors and generators. Precision electrical machine components from JM Graphite & Carbon.";
+$meta_keywords = "carbon brush bearing, brush holder, spring job, motor components, generator components";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon Brush Bearing, Holder, and Spring Job components for motors and generators. Precision electrical machine components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon brush bearing, brush holder, spring job, motor components, generator components">
 <link rel="stylesheet" href="css/product-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

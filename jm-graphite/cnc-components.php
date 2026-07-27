@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "CNC Machine Components & Parts Manufacturer in India";
+$meta_description = "Custom CNC machine components and precision machined parts manufactured to customer drawings for engineering, OEM and industrial applications.";
+$meta_keywords = "CNC components, CNC machined parts, precision components, CNC turning";
+include 'header.php';
+?>
 
-<meta name="description" content="CNC Machine Components and precision machined parts. Advanced CNC turning and machining from JM Graphite.">
-<meta name="keywords" content="CNC components, CNC machined parts, precision components, CNC turning">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

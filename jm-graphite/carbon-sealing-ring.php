@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Seal Ring Manufacturer in India";
+$meta_description = "Precision carbon seal rings for pumps, compressors and rotating equipment manufactured for superior sealing, wear resistance and extended service life.";
+$meta_keywords = "carbon sealing ring, sealing ring, graphite seal, industrial sealing, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon sealing rings for industrial applications. High-precision graphite components for sealing solutions from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon sealing ring, sealing ring, graphite seal, industrial sealing, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

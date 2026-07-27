@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Rails for Famatex Stanter M/C | JM Graphite & Carbon (India) LLP";
+$meta_description = "Premium graphite rails for Famatex stanter machines. High-quality components for textile industry from JM Graphite & Carbon.";
+$meta_keywords = "graphite rails, famatex stanter, textile equipment, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Premium graphite rails for Famatex stanter machines. High-quality components for textile industry from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite rails, famatex stanter, textile equipment, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Polymer & PEEK Products | JM Graphite & Carbon";
+$meta_description = "High-performance polymer products, PEEK filled graphite shock absorbers, PTFE carbon rings, and composite polymer sheets.";
+$meta_keywords = "Polymer Products, PEEK Graphite, Carbon Fiber Composite, PTFE Carbon Rings";
+include 'header.php';
+?>
 
 <link rel="stylesheet" href="product-animations.css">
 

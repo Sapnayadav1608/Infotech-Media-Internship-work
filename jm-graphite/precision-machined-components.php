@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Precision Machined Components | JM Graphite & Carbon (India) LLP";
+$meta_description = "Precision Machined Components with polished finish. Custom precision machined parts from JM Graphite.";
+$meta_keywords = "precision machined components, machined parts, custom machining";
+include 'header.php';
+?>
 
-<meta name="description" content="Precision Machined Components with polished finish. Custom precision machined parts from JM Graphite.">
-<meta name="keywords" content="precision machined components, machined parts, custom machining">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Pumping Screw Seals | JM Graphite & Carbon (India) LLP";
+$meta_description = "Advanced pumping screw seals for screw pump applications. Superior performance from JM Graphite & Carbon.";
+$meta_keywords = "pumping screw seals, screw pump seals, pump seals, mechanical seals";
+include 'header.php';
+?>
 
-<meta name="description" content="Advanced pumping screw seals for screw pump applications. Superior performance from JM Graphite & Carbon.">
-<meta name="keywords" content="pumping screw seals, screw pump seals, pump seals, mechanical seals">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

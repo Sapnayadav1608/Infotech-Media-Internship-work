@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Fiber Composite Polymer | JM Graphite & Carbon (India) LLP";
+$meta_description = "Carbon Fiber Composite Polymer Sheets and Rods for high-performance engineering applications. Lightweight, durable composite materials from JM Graphite.";
+$meta_keywords = "carbon fiber composite, polymer sheet, polymer rod, composite materials, engineering polymers";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon Fiber Composite Polymer Sheets and Rods for high-performance engineering applications. Lightweight, durable composite materials from JM Graphite.">
-<meta name="keywords" content="carbon fiber composite, polymer sheet, polymer rod, composite materials, engineering polymers">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Precision CNC Turned Parts | JM Graphite & Carbon (India) LLP";
+$meta_description = "Precision CNC Turned Parts with polished surface treatment. High-precision turned parts from JM Graphite.";
+$meta_keywords = "precision CNC turned parts, polished turned parts, high-precision components";
+include 'header.php';
+?>
 
-<meta name="description" content="Precision CNC Turned Parts with polished surface treatment. High-precision turned parts from JM Graphite.">
-<meta name="keywords" content="precision CNC turned parts, polished turned parts, high-precision components">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

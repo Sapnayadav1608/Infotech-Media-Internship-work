@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Anti Corrosion Bricks Manufacturer in India";
+$meta_description = "High-density graphite anti-corrosion bricks engineered for chemical processing, corrosive environments and industrial applications.";
+$meta_keywords = "graphite bricks, anti-corrosion, corrosion protection, graphite components, industrial bricks";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite anti-corrosion bricks. High-performance components for corrosion protection from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite bricks, anti-corrosion, corrosion protection, graphite components, industrial bricks">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

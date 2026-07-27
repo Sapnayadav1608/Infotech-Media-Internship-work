@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "About Us | JM Graphite & Carbon (India) LLP";
+$meta_description = "Learn about JM Graphite & Carbon (India) LLP - Established in 1974, leading manufacturer & exporter of carbon and graphite products with 50+ years of engineering excellence.";
+$meta_keywords = "About JM Graphite, Carbon Component Manufacturer India, Graphite Manufacturer, Industrial Carbon Solutions";
+include 'header.php';
+?>
 
 <!-- <link rel="stylesheet" href="css/about.css"> -->
 

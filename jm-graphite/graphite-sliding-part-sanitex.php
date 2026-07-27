@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Sliding Parts for Sanitex Machines";
+$meta_description = "Precision graphite sliding parts for Sanitex textile machines offering low friction, wear resistance and reliable long-term machine performance.";
+$meta_keywords = "sliding parts, sanitex machine, graphite components, textile machinery";
+include 'header.php';
+?>
 
-<meta name="description" content="Sliding parts for Sanitex machines. High-precision graphite components for textile equipment from JM Graphite & Carbon.">
-<meta name="keywords" content="sliding parts, sanitex machine, graphite components, textile machinery">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

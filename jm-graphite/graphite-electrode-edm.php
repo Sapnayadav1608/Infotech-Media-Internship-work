@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite EDM Electrodes Manufacturer in India";
+$meta_description = "High-density graphite EDM electrodes manufactured for precision machining, superior surface finish and improved machining efficiency.";
+$meta_keywords = "graphite electrode, EDM dies, EDM moulds, electrical discharge machining, graphite components, precision machining";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite electrode for EDM dies and moulds. High-precision components for electrical discharge machining from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite electrode, EDM dies, EDM moulds, electrical discharge machining, graphite components, precision machining">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

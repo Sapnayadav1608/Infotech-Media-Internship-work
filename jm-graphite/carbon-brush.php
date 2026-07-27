@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Brushes for Electrical Motors Manufacturer in India";
+$meta_description = "Premium carbon brushes for electrical motors, generators and industrial equipment offering excellent conductivity, durability and reliable performance.";
+$meta_keywords = "carbon brushes, motor brushes, generator brushes, DC brushes, AC brushes, slip rings";
+include 'header.php';
+?>
 
-<meta name="description" content="High-performance Carbon Brushes for motors, generators, and power tools. Premium electrical components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon brushes, motor brushes, generator brushes, DC brushes, AC brushes, slip rings">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

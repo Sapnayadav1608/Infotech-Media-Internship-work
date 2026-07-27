@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Blocks | JM Graphite & Carbon (India) LLP";
+$meta_description = "Graphite Blocks for industrial applications. High-quality graphite components for cement, fertilizer, and metal manufacturing industries from JM Graphite.";
+$meta_keywords = "graphite blocks, industrial graphite, graphite components, lubrication graphite";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite Blocks for industrial applications. High-quality graphite components for cement, fertilizer, and metal manufacturing industries from JM Graphite.">
-<meta name="keywords" content="graphite blocks, industrial graphite, graphite components, lubrication graphite">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

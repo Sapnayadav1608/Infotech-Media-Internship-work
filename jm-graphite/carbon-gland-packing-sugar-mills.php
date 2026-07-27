@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Gland Packing for Sugar Mills | JM Graphite & Carbon (India) LLP";
+$meta_description = "Carbon gland packing for sugar mills. High-precision carbon components for sugar processing from JM Graphite & Carbon.";
+$meta_keywords = "carbon gland packing, sugar mill, carbon packing, sugar processing, carbon sealing";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon gland packing for sugar mills. High-precision carbon components for sugar processing from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon gland packing, sugar mill, carbon packing, sugar processing, carbon sealing">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

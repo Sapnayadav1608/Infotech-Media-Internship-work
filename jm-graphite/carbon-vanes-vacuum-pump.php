@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Vanes for Vacuum Pumps Manufacturer in India";
+$meta_description = "High-performance carbon vanes for vacuum pumps designed for efficient operation, low wear and longer service life across industrial applications.";
+$meta_keywords = "carbon vane, vacuum pump, pump vane, carbon component, vacuum sealing";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon vanes for vacuum pump. High-quality carbon components for vacuum pump applications from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon vane, vacuum pump, pump vane, carbon component, vacuum sealing">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

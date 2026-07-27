@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Sealing Rings for Mechanical Shaft | JM Graphite & Carbon (India) LLP";
+$meta_description = "Carbon sealing rings for mechanical shaft. High-quality carbon sealing components from JM Graphite & Carbon.";
+$meta_keywords = "carbon sealing ring, mechanical shaft, shaft seal, carbon seal, mechanical sealing";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon sealing rings for mechanical shaft. High-quality carbon sealing components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon sealing ring, mechanical shaft, shaft seal, carbon seal, mechanical sealing">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Brush for Slip Rings | JM Graphite & Carbon (India) LLP";
+$meta_description = "Carbon brushes for slip rings including metal carbon brushes, motor carbon brushes, and industrial carbon brushes from JM Graphite & Carbon.";
+$meta_keywords = "carbon brush, slip rings, metal carbon brush, motor brush, industrial brush, graphite brush";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon brushes for slip rings including metal carbon brushes, motor carbon brushes, and industrial carbon brushes from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon brush, slip rings, metal carbon brush, motor brush, industrial brush, graphite brush">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

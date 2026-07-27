@@ -1,9 +1,11 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Rings / Carbon Sealing Ring | JM Graphite & Carbon (India) LLP";
+$meta_description = "Carbon Rings and Carbon Sealing Rings for mechanical seals and rotating equipment. High-quality graphite carbon components from JM Graphite & Carbon.";
+$meta_keywords = "carbon rings, sealing rings, mechanical seals, graphite carbon rings, rotary pumps";
+include 'header.php';
+?>
 
 <link rel="stylesheet" href="product-animations.css">
-
-<meta name="description" content="Carbon Rings and Carbon Sealing Rings for mechanical seals and rotating equipment. High-quality graphite carbon components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon rings, sealing rings, mechanical seals, graphite carbon rings, rotary pumps">
 
 <!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">

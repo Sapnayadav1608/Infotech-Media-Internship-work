@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Precision Turning Components Manufacturer in India";
+$meta_description = "Precision turning components manufactured to tight tolerances for OEMs and industrial applications with consistent quality and reliable performance.";
+$meta_keywords = "Precision turning components, precision machining, CNC turning, high precision parts";
+include 'header.php';
+?>
 
-<meta name="description" content="Precision Turning Components for high-precision applications. Advanced CNC turning from JM Graphite.">
-<meta name="keywords" content="Precision turning components, precision machining, CNC turning, high precision parts">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Single Spring Seals | JM Graphite & Carbon (India) LLP";
+$meta_description = "Single spring seals for reliable pump and compressor sealing. Superior performance from JM Graphite & Carbon.";
+$meta_keywords = "single spring seals, spring seals, pump seals, mechanical seals";
+include 'header.php';
+?>
 
-<meta name="description" content="Single spring seals for reliable pump and compressor sealing. Superior performance from JM Graphite & Carbon.">
-<meta name="keywords" content="single spring seals, spring seals, pump seals, mechanical seals">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Sliding Parts | JM Graphite & Carbon (India) LLP";
+$meta_description = "Graphite Sliding Parts - Precision machined graphite components for industrial applications. High-quality graphite parts from JM Graphite.";
+$meta_keywords = "graphite sliding parts, precision graphite, machined graphite, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite Sliding Parts - Precision machined graphite components for industrial applications. High-quality graphite parts from JM Graphite.">
-<meta name="keywords" content="graphite sliding parts, precision graphite, machined graphite, graphite components">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

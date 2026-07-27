@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Gland Packing for Cement Industries";
+$meta_description = "Heavy-duty carbon gland packing designed for cement plants, delivering excellent sealing performance under high-temperature operating conditions.";
+$meta_keywords = "carbon gland packing, cement industry, graphite packing, cement processing, graphite sealing";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon gland packing for cement industries. High-precision graphite components for cement processing from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon gland packing, cement industry, graphite packing, cement processing, graphite sealing">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

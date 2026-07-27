@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Rails for Kranz Stenter Manufacturer in India";
+$meta_description = "Premium graphite rails for Kranz stenter machines engineered for smooth operation, low wear and long-lasting textile production performance.";
+$meta_keywords = "graphite rails, kranz stanter, textile equipment, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Premium graphite rails for Kranz stanter machines. High-quality components for textile industry from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite rails, kranz stanter, textile equipment, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

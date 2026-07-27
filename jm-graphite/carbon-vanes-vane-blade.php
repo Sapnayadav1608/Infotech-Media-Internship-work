@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Vanes / Vane Blade | JM Graphite & Carbon (India) LLP";
+$meta_description = "High-quality Carbon Vanes and Vane Blades for vacuum pumps, compressors, and industrial machinery. Premium components from JM Graphite & Carbon.";
+$meta_keywords = "carbon vanes, vane blades, vacuum pump vanes, rotary vane pumps, spray paint equipment";
+include 'header.php';
+?>
 
-<meta name="description" content="High-quality Carbon Vanes and Vane Blades for vacuum pumps, compressors, and industrial machinery. Premium components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon vanes, vane blades, vacuum pump vanes, rotary vane pumps, spray paint equipment">
 <link rel="stylesheet" href="css/product-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

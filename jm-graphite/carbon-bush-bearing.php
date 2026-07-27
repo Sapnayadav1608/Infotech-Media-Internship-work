@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Bush Bearing Manufacturer in India";
+$meta_description = "High-performance carbon bush bearings designed for self-lubrication, low friction and dependable operation in demanding industrial equipment.";
+$meta_keywords = "carbon bush, bearing, graphite bearing, industrial machinery, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon bush bearings for industrial machinery. High-precision graphite components for bearing applications from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon bush, bearing, graphite bearing, industrial machinery, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

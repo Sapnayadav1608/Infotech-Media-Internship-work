@@ -1,9 +1,12 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Easy Lube Bar for Rotary Kiln Manufacturer in India";
+$meta_description = "JM Graphite manufactures premium Easy Lube Bars for rotary kilns, ensuring reliable lubrication, reduced wear and improved equipment performance.";
+$meta_keywords = "easy bar, rotary kiln, graphite bars, kiln components";
+include 'header.php';
+?>
 
 <div class="graphite-easy-bar-rotary-kiln">
 
-<meta name="description" content="Premium graphite easy bars for rotary kiln applications. High-temperature resistant components from JM Graphite & Carbon.">
-<meta name="keywords" content="easy bar, rotary kiln, graphite bars, kiln components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

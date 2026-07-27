@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Complete Mechanical Seals for Pumps Manufacturer in India";
+$meta_description = "Complete mechanical seals for pumps manufactured for chemical, water, process and industrial applications with leak-proof performance and long service life.";
+$meta_keywords = "mechanical shaft seals, industrial seals, pump seals, compressor seals, mechanical seals, shaft sealing";
+include 'header.php';
+?>
 
-<meta name="description" content="Mechanical shaft seals for all types of industries. Advanced sealing solutions for pumps, compressors, and rotating equipment from JM Graphite & Carbon.">
-<meta name="keywords" content="mechanical shaft seals, industrial seals, pump seals, compressor seals, mechanical seals, shaft sealing">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

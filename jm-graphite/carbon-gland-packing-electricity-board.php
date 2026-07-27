@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Gland Packing for Power Plants";
+$meta_description = "Industrial carbon gland packing manufactured for electricity boards and power plants, ensuring reliable sealing and long-lasting performance.";
+$meta_keywords = "carbon gland packing water turbine, dam turbine seals, hydroelectric packing, water turbine rings, graphite sealing, electricity board";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon Gland Packing Ring for Water Turbine. High-precision graphite components for dam and hydroelectric applications from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon gland packing water turbine, dam turbine seals, hydroelectric packing, water turbine rings, graphite sealing, electricity board">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

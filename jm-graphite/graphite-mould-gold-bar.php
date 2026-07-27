@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Gold Bar Mould Manufacturer in India";
+$meta_description = "Premium graphite gold bar moulds engineered for accurate casting, excellent thermal resistance and longer service life for precious metal applications.";
+$meta_keywords = "graphite mould, gold bar, precious metal casting, graphite components, gold casting";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite moulds for 1kg gold bar casting. High-precision components for precious metal casting from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite mould, gold bar, precious metal casting, graphite components, gold casting">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

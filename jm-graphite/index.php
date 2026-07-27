@@ -1,4 +1,9 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite & Carbon Products Manufacturer in India | JM Graphite";
+$meta_description = "JM Graphite manufactures high-quality graphite, carbon, PTFE and CNC components for textile, cement, paper, engineering and process industries across India.";
+$meta_keywords = "JM Graphite, Carbon Manufacturer, Carbon Gland Packing, Carbon Vanes, Graphite Rails, Mechanical Shaft Seals, CNC Precision Components";
+include 'header.php';
+?>
 <!-- Carousel Start -->
 <div class="header-carousel owl-carousel">
     <div class="header-carousel-item">
@@ -87,7 +92,7 @@
     <div class="container">
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center p-5">
             <h1 class="me-4"><span class="fw-normal">Contact Us</span><span> your Enquiry</span></h1>
-            <a href="#" class="text-white fw-bold fs-2"> <i class="fa fa-phone me-1"></i> 08048989272</a>
+            <a href="tel:9820449698" class="text-white fw-bold fs-2"> <i class="fa fa-phone me-1"></i>9820449698</a>
         </div>
     </div>
 </div>

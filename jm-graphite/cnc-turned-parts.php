@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "CNC Turned Parts | JM Graphite & Carbon (India) LLP";
+$meta_description = "CNC Turned Parts up to 12mm OD for precision applications. Small turning parts from JM Graphite.";
+$meta_keywords = "CNC turned parts, small turning parts, precision parts, 12mm OD";
+include 'header.php';
+?>
 
-<meta name="description" content="CNC Turned Parts up to 12mm OD for precision applications. Small turning parts from JM Graphite.">
-<meta name="keywords" content="CNC turned parts, small turning parts, precision parts, 12mm OD">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

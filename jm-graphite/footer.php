@@ -70,7 +70,10 @@
 
                         <div class="d-flex">
                             <i class="fas fa-envelope text-primary me-3 mt-1"></i>
-                            <p class="text-white mb-0">jmgraphite@gmail.com</p>
+                            <p class="text-white mb-0">  sales@jmgraphite.in<br>
+                            carbonhome@hotmail.com<br>
+                            sales@jmgraphitecarbon.com</p>
+                            
                         </div>
 
                     </div>

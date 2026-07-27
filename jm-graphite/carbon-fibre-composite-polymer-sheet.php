@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Fibre Sheets Manufacturer in India";
+$meta_description = "Lightweight and high-strength carbon fibre composite sheets manufactured for engineering, aerospace, automotive and industrial applications.";
+$meta_keywords = "carbon fibre composite, polymer sheet, carbon fiber rod, composite material, industrial polymer";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon fibre composite polymer sheets and carbon fiber rods for industrial applications. High-quality polymer products from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon fibre composite, polymer sheet, carbon fiber rod, composite material, industrial polymer">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

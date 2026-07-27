@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "PEEK Products Manufacturer & Supplier in India";
+$meta_description = "High-performance PEEK products offering exceptional chemical resistance, mechanical strength and thermal stability for industrial applications.";
+$meta_keywords = "PEEK products, peak polymer, PEEK material, high-performance polymer, shock absorber, Montfort stenter";
+include 'header.php';
+?>
 
-<meta name="description" content="Peak PEEK products - PEEK filled graphite shock absorber for Montfort's Stenter Machine. High-quality polymer products from JM Graphite & Carbon.">
-<meta name="keywords" content="PEEK products, peak polymer, PEEK material, high-performance polymer, shock absorber, Montfort stenter">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

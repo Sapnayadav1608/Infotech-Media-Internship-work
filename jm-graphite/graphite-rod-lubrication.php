@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Rod for Lubrication | JM Graphite & Carbon (India) LLP";
+$meta_description = "Graphite Rod for Lubrication - Supporting roller machine components. Self-lubricating graphite rods from JM Graphite.";
+$meta_keywords = "graphite rod, lubrication rod, roller machine, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite Rod for Lubrication - Supporting roller machine components. Self-lubricating graphite rods from JM Graphite.">
-<meta name="keywords" content="graphite rod, lubrication rod, roller machine, graphite components">
 <link rel="stylesheet" href="css/enhanced-animations.css">
 
 <!-- Structured Data (JSON-LD) -->

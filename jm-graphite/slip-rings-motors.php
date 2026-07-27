@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Slip Rings Manufacturer in India";
+$meta_description = "JM Graphite manufactures durable slip rings for motors, generators and rotating equipment, ensuring reliable electrical transmission and long operational life.";
+$meta_keywords = "slip ring, motor slip ring, electrical slip ring, rotating contact, motor component";
+include 'header.php';
+?>
 
-<meta name="description" content="Slip rings for all types of motors. High-quality slip ring components from JM Graphite & Carbon.">
-<meta name="keywords" content="slip ring, motor slip ring, electrical slip ring, rotating contact, motor component">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

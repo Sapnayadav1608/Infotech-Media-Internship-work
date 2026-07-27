@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Dies for Strip Casting Manufacturer";
+$meta_description = "Precision graphite strip casting dies manufactured for superior thermal stability, smooth casting performance and longer operational life.";
+$meta_keywords = "graphite dies, strip casting, casting dies, metal casting, graphite components";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite dies for strip casting. High-precision components for metal strip casting from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite dies, strip casting, casting dies, metal casting, graphite components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

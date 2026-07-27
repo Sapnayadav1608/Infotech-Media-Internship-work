@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Graphite Moulds for Vacuum Furnace | JM Graphite & Carbon (India) LLP";
+$meta_description = "Graphite moulds for vacuum furnace. High-precision components for vacuum furnace applications from JM Graphite & Carbon.";
+$meta_keywords = "graphite moulds, vacuum furnace, furnace moulds, graphite components, vacuum casting";
+include 'header.php';
+?>
 
-<meta name="description" content="Graphite moulds for vacuum furnace. High-precision components for vacuum furnace applications from JM Graphite & Carbon.">
-<meta name="keywords" content="graphite moulds, vacuum furnace, furnace moulds, graphite components, vacuum casting">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">

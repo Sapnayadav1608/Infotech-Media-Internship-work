@@ -1,7 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Carbon Brush Holder Manufacturer in India";
+$meta_description = "JM Graphite manufactures precision carbon brush holders for electric motors, generators and industrial machinery with consistent quality and durability.";
+$meta_keywords = "carbon brush holder, brush holder, motor brush holder, generator brush holder, carbon components";
+include 'header.php';
+?>
 
-<meta name="description" content="Carbon brush holder for all types of motors and generators. High-precision components from JM Graphite & Carbon.">
-<meta name="keywords" content="carbon brush holder, brush holder, motor brush holder, generator brush holder, carbon components">
 <link rel="stylesheet" href="css/product-animations.css">
 <link rel="stylesheet" href="css/product-cards.css">
 <link rel="stylesheet" href="css/product-pages.css">
